@@ -1,0 +1,50 @@
+<!--The content below is only a placeholder and can be replaced.-->
+
+<!doctype html>
+<html lang="en">
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!--<link href="style.css" rel="stylesheet">-->
+
+    <title>e-Form Repair.com!</title>
+  </head>
+  <body>
+
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-primary ">
+            <span class="navbar-brand mb-0 h1">Welcome to e-From Repair.com</span>
+
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item active ">
+						<a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item ">
+						<a class="nav-link " href="search.component.html">Search</a>
+					</li>
+					<li class="nav-item">
+            <!--<a class="nav-link" href="created.component.html">Add</a>-->
+            <a class="nav-link"routerLink="/create">Add</a>
+					</li>
+						<li class="nav-item">
+						<a class="nav-link" href="#">Edit</a>
+					</li>
+						<li class="nav-item">
+						<a class="nav-link" href="#">Delete</a>
+					</li>
+				</ul>
+        </nav>
+    </div>
+
+    <div style="text-align:center">
+        <h1 style="color: lightgreen;">
+          Welcome to {{ title }}!
+        </h1>
+        <img style="width:128px; height:128px " alt="repair logo" src="assets/img/repairIcon.jpg">
+    </div>
+  </body>
+</html>

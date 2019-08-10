@@ -1,0 +1,740 @@
+2019-03-23T11:18:11.955114Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2019-03-23T11:18:11.955214Z 0 [Warning] 'NO_ZERO_DATE', 'NO_ZERO_IN_DATE' and 'ERROR_FOR_DIVISION_BY_ZERO' sql modes should be used with strict mode. They will be merged with strict mode in a future release.
+2019-03-23T11:18:11.960055Z 0 [Note] C:\Program Files\MySQL\MySQL Server 5.7\bin\mysqld.exe (mysqld 5.7.25-log) starting as process 7132 ...
+2019-03-23T11:18:11.985642Z 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2019-03-23T11:18:11.994609Z 0 [Note] InnoDB: Uses event mutexes
+2019-03-23T11:18:11.997225Z 0 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2019-03-23T11:18:11.998913Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2019-03-23T11:18:12.000200Z 0 [Note] InnoDB: Adjusting innodb_buffer_pool_instances from 8 to 1 since innodb_buffer_pool_size is less than 1024 MiB
+2019-03-23T11:18:12.004821Z 0 [Note] InnoDB: Number of pools: 1
+2019-03-23T11:18:12.006200Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2019-03-23T11:18:12.016631Z 0 [Note] InnoDB: Initializing buffer pool, total size = 8M, instances = 1, chunk size = 8M
+2019-03-23T11:18:12.019512Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2019-03-23T11:18:12.061527Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2019-03-23T11:18:12.170402Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2019-03-23T11:18:12.173294Z 0 [Note] InnoDB: Setting file '.\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2019-03-23T11:18:12.219896Z 0 [Note] InnoDB: File '.\ibtmp1' size is now 12 MB.
+2019-03-23T11:18:12.224671Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2019-03-23T11:18:12.226601Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2019-03-23T11:18:12.228632Z 0 [Note] InnoDB: Waiting for purge to start
+2019-03-23T11:18:12.281410Z 0 [Note] InnoDB: 5.7.25 started; log sequence number 2524802
+2019-03-23T11:18:12.283329Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2019-03-23T11:18:12.289600Z 0 [Note] InnoDB: Loading buffer pool(s) from C:\ProgramData\MySQL\MySQL Server 5.7\Data\ib_buffer_pool
+2019-03-23T11:18:12.315828Z 0 [Warning] Failed to set up SSL because of the following SSL library error: SSL context is not usable without certificate and private key
+2019-03-23T11:18:12.316592Z 0 [Note] InnoDB: Buffer pool(s) load completed at 190323 19:18:12
+2019-03-23T11:18:12.318378Z 0 [Note] Server hostname (bind-address): '*'; port: 3306
+2019-03-23T11:18:12.321631Z 0 [Note] IPv6 is available.
+2019-03-23T11:18:12.323164Z 0 [Note]   - '::' resolves to '::';
+2019-03-23T11:18:12.324318Z 0 [Note] Server socket created on IP: '::'.
+2019-03-23T11:18:12.470875Z 0 [Note] Shared memory setting up listener
+2019-03-23T11:18:12.534173Z 0 [Note] Failed to start slave threads for channel ''
+2019-03-23T11:18:12.565445Z 0 [Note] Event Scheduler: Loaded 0 events
+2019-03-23T11:18:12.566515Z 0 [Note] C:\Program Files\MySQL\MySQL Server 5.7\bin\mysqld.exe: ready for connections.
+Version: '5.7.25-log'  socket: ''  port: 3306  MySQL Community Server (GPL)
+2019-03-23T11:18:13.230148Z 4 [Note] Access denied for user 'root'@'localhost' (using password: NO)
+2019-03-23T11:19:34.033535Z 5 [Note] Access denied for user 'root'@'localhost' (using password: YES)
+2019-03-23T11:20:46.555081Z 9 [Note] Access denied for user 'root'@'localhost' (using password: NO)
+2019-03-23T11:32:39.790493Z 12 [Note] Aborted connection 12 to db: 'staffdb' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-03-23T12:20:32.070315Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 2825628ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2019-03-23T13:18:23.814047Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 794571ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2019-03-24T01:36:37.609351Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 35463500ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2019-03-24T04:46:41.019313Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 2561694ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2019-03-24T05:20:24.698489Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 497849ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2019-03-24T05:34:51.613722Z 14 [Note] Access denied for user 'root'@'localhost' (using password: NO)
+2019-03-24T05:48:53.148109Z 13 [Note] Aborted connection 13 to db: 'staffdb' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-03-24T05:51:50.028856Z 17 [Note] Aborted connection 17 to db: 'staffdb' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-03-24T05:57:18.522714Z 18 [Note] Aborted connection 18 to db: 'staffdb' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-03-24T05:58:04.989542Z 19 [Note] Aborted connection 19 to db: 'staffdb' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-03-24T06:05:09.663013Z 20 [Note] Aborted connection 20 to db: 'staffdb' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-03-24T06:10:37.398435Z 21 [Note] Aborted connection 21 to db: 'staffdb' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-03-24T06:17:36.987803Z 22 [Note] Aborted connection 22 to db: 'staffdb' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-03-24T06:21:54.285750Z 23 [Note] Aborted connection 23 to db: 'staffdb' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-03-24T06:24:04.046757Z 24 [Note] Aborted connection 24 to db: 'staffdb' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-03-24T07:00:33.394460Z 25 [Note] Aborted connection 25 to db: 'staffdb' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-03-24T07:01:46.007444Z 26 [Note] Aborted connection 26 to db: 'staffdb' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-03-24T07:06:02.867124Z 27 [Note] Aborted connection 27 to db: 'staffdb' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-03-24T07:16:39.042531Z 28 [Note] Aborted connection 28 to db: 'staffdb' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-03-24T07:23:46.129054Z 29 [Note] Aborted connection 29 to db: 'staffdb' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-03-24T07:30:37.074431Z 30 [Note] Aborted connection 30 to db: 'staffdb' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-03-24T07:31:38.317810Z 31 [Note] Aborted connection 31 to db: 'staffdb' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-03-24T07:32:27.757926Z 32 [Note] Aborted connection 32 to db: 'staffdb' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-03-24T07:33:28.532136Z 33 [Note] Aborted connection 33 to db: 'staffdb' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-03-24T08:23:55.524180Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 2439898ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2019-03-24T08:47:38.199239Z 34 [Note] Aborted connection 34 to db: 'staffdb' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-03-24T08:53:10.181768Z 35 [Note] Aborted connection 35 to db: 'staffdb' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-03-24T08:54:23.850221Z 36 [Note] Aborted connection 36 to db: 'staffdb' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-03-24T08:56:13.214049Z 37 [Note] Aborted connection 37 to db: 'staffdb' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-03-24T09:05:47.845930Z 38 [Note] Aborted connection 38 to db: 'staffdb' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-03-24T09:39:59.635864Z 39 [Note] Aborted connection 39 to db: 'staffdb' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-03-24T09:41:36.054773Z 40 [Note] Aborted connection 40 to db: 'staffdb' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-03-24T09:43:08.052503Z 41 [Note] Aborted connection 41 to db: 'staffdb' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-03-24T09:46:01.963609Z 42 [Note] Aborted connection 42 to db: 'staffdb' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-03-24T09:49:38.759079Z 43 [Note] Aborted connection 43 to db: 'staffdb' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-03-24T09:50:21.819499Z 44 [Note] Aborted connection 44 to db: 'staffdb' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-03-24T09:52:31.230529Z 45 [Note] Aborted connection 45 to db: 'staffdb' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-03-24T09:55:48.139203Z 46 [Note] Aborted connection 46 to db: 'staffdb' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-03-24T09:57:46.508292Z 47 [Note] Aborted connection 47 to db: 'staffdb' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-03-24T09:59:38.658063Z 48 [Note] Aborted connection 48 to db: 'staffdb' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-03-24T12:02:28.216841Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 7309675ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2019-03-24T12:25:12.414228Z 49 [Note] Aborted connection 49 to db: 'staffdb' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-03-24T12:26:14.033360Z 50 [Note] Aborted connection 50 to db: 'staffdb' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-03-24T12:27:19.371536Z 51 [Note] Aborted connection 51 to db: 'staffdb' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-03-24T12:28:26.596733Z 52 [Note] Aborted connection 52 to db: 'staffdb' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-03-24T12:29:05.748933Z 53 [Note] Aborted connection 53 to db: 'staffdb' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-03-24T12:29:50.643873Z 54 [Note] Aborted connection 54 to db: 'staffdb' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-03-24T12:30:30.809280Z 55 [Note] Aborted connection 55 to db: 'staffdb' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-03-24T12:31:56.908953Z 56 [Note] Aborted connection 56 to db: 'staffdb' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-03-24T12:34:14.382503Z 57 [Note] Aborted connection 57 to db: 'staffdb' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-03-24T12:35:16.705956Z 58 [Note] Aborted connection 58 to db: 'staffdb' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-03-24T12:37:37.178646Z 59 [Note] Aborted connection 59 to db: 'staffdb' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-03-24T12:38:03.247021Z 61 [Note] Access denied for user 'root'@'localhost' (using password: NO)
+2019-03-24T12:38:28.327661Z 60 [Note] Aborted connection 60 to db: 'staffdb' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-03-24T12:39:34.400976Z 64 [Note] Aborted connection 64 to db: 'staffdb' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-03-24T12:41:44.035872Z 65 [Note] Aborted connection 65 to db: 'staffdb' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-03-24T12:43:12.660761Z 66 [Note] Aborted connection 66 to db: 'staffdb' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-03-24T12:44:23.501586Z 67 [Note] Aborted connection 67 to db: 'staffdb' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-03-24T13:24:13.094455Z 68 [Note] Aborted connection 68 to db: 'staffdb' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-03-24T13:32:01.319883Z 69 [Note] Aborted connection 69 to db: 'staffdb' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-03-24T13:33:56.126372Z 70 [Note] Aborted connection 70 to db: 'staffdb' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-03-24T14:11:10.439270Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 918998ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2019-03-24T14:11:41.493626Z 71 [Note] Aborted connection 71 to db: 'staffdb' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-03-25T09:00:11.963794Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 63345811ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2019-03-25T10:38:39.294679Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 4095304ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2019-03-25T11:16:34.459741Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 386061ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2019-03-25T12:10:23.125311Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 382772ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2019-03-25T14:56:45.260916Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 383290ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2019-03-26T01:31:03.246120Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 35473105ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2019-03-26T02:14:56.529839Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 1200892ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2019-03-26T04:15:17.508827Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 4550667ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2019-03-26T04:39:58.554911Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 73394ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2019-03-26T05:46:31.802385Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 2763776ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2019-03-26T06:36:43.107005Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 2858226ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2019-03-26T07:59:06.465064Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 1798157ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2019-03-26T08:53:58.525805Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 1134148ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2019-03-26T14:38:07.450917Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 20620840ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2019-03-26T15:08:32.405099Z 0 [Note] C:\Program Files\MySQL\MySQL Server 5.7\bin\mysqld.exe: Normal shutdown
+
+2019-03-26T15:08:33.401387Z 0 [Note] Giving 0 client threads a chance to die gracefully
+2019-03-26T15:08:33.402539Z 0 [Note] Shutting down slave threads
+2019-03-26T15:08:33.404105Z 0 [Note] Forcefully disconnecting 0 remaining clients
+2019-03-26T15:08:33.406202Z 0 [Note] Event Scheduler: Purging the queue. 0 events
+2019-03-26T15:08:33.411184Z 0 [Note] Binlog end
+2019-03-26T15:08:33.436955Z 0 [Note] Shutting down plugin 'ngram'
+2019-03-26T15:08:33.438224Z 0 [Note] Shutting down plugin 'partition'
+2019-03-26T15:08:33.439210Z 0 [Note] Shutting down plugin 'BLACKHOLE'
+2019-03-26T15:08:33.440152Z 0 [Note] Shutting down plugin 'ARCHIVE'
+2019-03-26T15:08:33.441008Z 0 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2019-03-26T15:08:33.442169Z 0 [Note] Shutting down plugin 'MRG_MYISAM'
+2019-03-26T15:08:33.443511Z 0 [Note] Shutting down plugin 'MyISAM'
+2019-03-26T15:08:33.444364Z 0 [Note] Shutting down plugin 'INNODB_SYS_VIRTUAL'
+2019-03-26T15:08:33.446026Z 0 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2019-03-26T15:08:33.446842Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2019-03-26T15:08:33.447680Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2019-03-26T15:08:33.448621Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2019-03-26T15:08:33.449387Z 0 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2019-03-26T15:08:33.450194Z 0 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2019-03-26T15:08:33.451262Z 0 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2019-03-26T15:08:33.452203Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2019-03-26T15:08:33.453268Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2019-03-26T15:08:33.454254Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2019-03-26T15:08:33.455257Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2019-03-26T15:08:33.456277Z 0 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2019-03-26T15:08:33.463376Z 0 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2019-03-26T15:08:33.467597Z 0 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2019-03-26T15:08:33.468833Z 0 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2019-03-26T15:08:33.469937Z 0 [Note] Shutting down plugin 'INNODB_METRICS'
+2019-03-26T15:08:33.470707Z 0 [Note] Shutting down plugin 'INNODB_TEMP_TABLE_INFO'
+2019-03-26T15:08:33.471513Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2019-03-26T15:08:33.472335Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2019-03-26T15:08:33.473140Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2019-03-26T15:08:33.473911Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2019-03-26T15:08:33.474777Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2019-03-26T15:08:33.475740Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2019-03-26T15:08:33.477139Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2019-03-26T15:08:33.478060Z 0 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2019-03-26T15:08:33.479538Z 0 [Note] Shutting down plugin 'INNODB_CMP'
+2019-03-26T15:08:33.482483Z 0 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2019-03-26T15:08:33.484141Z 0 [Note] Shutting down plugin 'INNODB_LOCKS'
+2019-03-26T15:08:33.485922Z 0 [Note] Shutting down plugin 'INNODB_TRX'
+2019-03-26T15:08:33.487894Z 0 [Note] Shutting down plugin 'InnoDB'
+2019-03-26T15:08:33.689015Z 0 [Note] InnoDB: FTS optimize thread exiting.
+2019-03-26T15:08:33.690077Z 0 [Note] InnoDB: Starting shutdown...
+2019-03-26T15:08:33.833273Z 0 [Note] InnoDB: Dumping buffer pool(s) to C:\ProgramData\MySQL\MySQL Server 5.7\Data\ib_buffer_pool
+2019-03-26T15:08:33.837698Z 0 [Note] InnoDB: Buffer pool(s) dump completed at 190326 23:08:33
+2019-03-26T15:08:35.023135Z 0 [Note] InnoDB: Shutdown completed; log sequence number 10880491
+2019-03-26T15:08:35.024941Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2019-03-26T15:08:35.026141Z 0 [Note] Shutting down plugin 'MEMORY'
+2019-03-26T15:08:35.027333Z 0 [Note] Shutting down plugin 'CSV'
+2019-03-26T15:08:35.028465Z 0 [Note] Shutting down plugin 'sha256_password'
+2019-03-26T15:08:35.029414Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2019-03-26T15:08:35.031163Z 0 [Note] Shutting down plugin 'binlog'
+2019-03-26T15:08:35.037738Z 0 [Note] C:\Program Files\MySQL\MySQL Server 5.7\bin\mysqld.exe: Shutdown complete
+
+2019-03-26T15:09:05.196088Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2019-03-26T15:09:05.199258Z 0 [Warning] 'NO_ZERO_DATE', 'NO_ZERO_IN_DATE' and 'ERROR_FOR_DIVISION_BY_ZERO' sql modes should be used with strict mode. They will be merged with strict mode in a future release.
+2019-03-26T15:09:05.206432Z 0 [Note] C:\Program Files\MySQL\MySQL Server 5.7\bin\mysqld.exe (mysqld 5.7.25-log) starting as process 6780 ...
+2019-03-26T15:09:05.392459Z 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2019-03-26T15:09:05.394285Z 0 [Note] InnoDB: Uses event mutexes
+2019-03-26T15:09:05.397737Z 0 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2019-03-26T15:09:05.408629Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2019-03-26T15:09:05.409731Z 0 [Note] InnoDB: Adjusting innodb_buffer_pool_instances from 8 to 1 since innodb_buffer_pool_size is less than 1024 MiB
+2019-03-26T15:09:05.451004Z 0 [Note] InnoDB: Number of pools: 1
+2019-03-26T15:09:05.469603Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2019-03-26T15:09:05.483952Z 0 [Note] InnoDB: Initializing buffer pool, total size = 8M, instances = 1, chunk size = 8M
+2019-03-26T15:09:05.487829Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2019-03-26T15:09:05.614288Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2019-03-26T15:09:06.133524Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2019-03-26T15:09:06.135613Z 0 [Note] InnoDB: Setting file '.\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2019-03-26T15:09:06.196725Z 0 [Note] InnoDB: File '.\ibtmp1' size is now 12 MB.
+2019-03-26T15:09:06.209198Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2019-03-26T15:09:06.210901Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2019-03-26T15:09:06.212800Z 0 [Note] InnoDB: Waiting for purge to start
+2019-03-26T15:09:06.312335Z 0 [Note] InnoDB: 5.7.25 started; log sequence number 10880491
+2019-03-26T15:09:06.316491Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2019-03-26T15:09:06.369611Z 0 [Note] InnoDB: Loading buffer pool(s) from C:\ProgramData\MySQL\MySQL Server 5.7\Data\ib_buffer_pool
+2019-03-26T15:09:06.377558Z 0 [Warning] Failed to set up SSL because of the following SSL library error: SSL context is not usable without certificate and private key
+2019-03-26T15:09:06.380758Z 0 [Note] Server hostname (bind-address): '*'; port: 3306
+2019-03-26T15:09:06.384315Z 0 [Note] IPv6 is available.
+2019-03-26T15:09:06.385588Z 0 [Note]   - '::' resolves to '::';
+2019-03-26T15:09:06.386755Z 0 [Note] Server socket created on IP: '::'.
+2019-03-26T15:09:06.389582Z 0 [Note] InnoDB: Buffer pool(s) load completed at 190326 23:09:06
+2019-03-26T15:09:06.406357Z 0 [Note] Shared memory setting up listener
+2019-03-26T15:09:06.603987Z 0 [Note] Failed to start slave threads for channel ''
+2019-03-26T15:09:06.963790Z 0 [Note] Event Scheduler: Loaded 0 events
+2019-03-26T15:09:06.988794Z 0 [Note] C:\Program Files\MySQL\MySQL Server 5.7\bin\mysqld.exe: ready for connections.
+Version: '5.7.25-log'  socket: ''  port: 3306  MySQL Community Server (GPL)
+2019-03-27T00:08:27.424334Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 31800976ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2019-03-27T02:15:17.582770Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 4248982ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2019-03-27T02:59:17.552754Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 732132ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2019-03-27T03:02:59.241689Z 3 [Note] Access denied for user 'root'@'localhost' (using password: NO)
+2019-03-27T03:26:56.043995Z 2 [Note] Aborted connection 2 to db: 'staffdb' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-03-27T04:04:50.365539Z 6 [Note] Aborted connection 6 to db: 'repair_maint' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-03-27T04:06:22.962555Z 7 [Note] Aborted connection 7 to db: 'repair_maint' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-03-27T04:20:11.117245Z 8 [Note] Aborted connection 8 to db: 'repair_maint' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-03-27T04:27:11.017585Z 9 [Note] Aborted connection 9 to db: 'repair_maint' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-03-27T04:28:16.134918Z 10 [Note] Aborted connection 10 to db: 'repair_maint' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-03-27T04:29:00.714928Z 11 [Note] Aborted connection 11 to db: 'repair_maint' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-03-27T04:31:46.842084Z 12 [Note] Aborted connection 12 to db: 'repair_maint' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-03-27T06:28:54.857744Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 2890391ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2019-03-27T07:17:52.665620Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 1553998ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2019-03-27T08:29:36.416229Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 224171ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2019-03-27T08:48:18.747561Z 13 [Note] Aborted connection 13 to db: 'repair_maint' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-03-27T09:43:19.124008Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 3282941ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2019-03-27T09:55:29.695294Z 15 [Note] Access denied for user 'root'@'localhost' (using password: NO)
+2019-03-27T10:00:07.917775Z 14 [Note] Aborted connection 14 to db: 'repair_maint' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-03-27T10:00:08.228405Z 16 [Note] Aborted connection 16 to db: 'repair_maint' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-03-27T10:00:08.230663Z 17 [Note] Aborted connection 17 to db: 'repair_maint' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-03-27T10:08:06.562269Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 470338ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2019-03-27T11:21:41.513708Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 4363793ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2019-03-27T12:47:05.317686Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 18904ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2019-03-27T13:56:01.711946Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 4113327ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2019-03-27T14:59:35.457155Z 19 [Note] Access denied for user 'root'@'localhost' (using password: NO)
+2019-03-27T15:11:02.077393Z 18 [Note] Aborted connection 18 to db: 'repair_maint' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-03-27T15:14:36.915015Z 22 [Note] Aborted connection 22 to db: 'repair_maint' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-03-27T15:16:16.846115Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 7751ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2019-03-27T15:24:35.581903Z 23 [Note] Aborted connection 23 to db: 'repair_maint' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-03-27T15:24:36.126099Z 20 [Note] Aborted connection 20 to db: 'repair_maint' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-03-27T15:24:36.126261Z 21 [Note] Aborted connection 21 to db: 'repair_maint' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-03-27T23:21:46.028730Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 28622629ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2019-03-28T12:30:58.209238Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 47006679ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2019-03-28T12:35:48.752190Z 25 [Note] Access denied for user 'root'@'localhost' (using password: NO)
+2019-03-28T14:03:13.442603Z 24 [Note] Aborted connection 24 to db: 'repair_maint' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-03-28T14:48:02.266390Z 28 [Note] Aborted connection 28 to db: 'repair_maint' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-03-29T11:24:11.214590Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 73208992ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2019-03-29T14:33:21.446968Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 8639421ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2019-03-30T00:58:41.176670Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 34841030ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2019-03-30T07:16:49.712829Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 21105818ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2019-03-30T11:59:30.536241Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 3060429ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2019-03-30T12:55:16.916095Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 1448118ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2019-03-30T15:00:49.314062Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 783361ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2019-03-31T00:50:03.336150Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 32422605ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2019-03-31T05:10:02.677244Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 10118160ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2019-03-31T07:13:33.094915Z 29 [Note] Access denied for user 'root'@'localhost' (using password: NO)
+2019-03-31T07:27:04.330566Z 32 [Note] Aborted connection 32 to db: 'repair_maint' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-03-31T07:28:58.856164Z 33 [Note] Aborted connection 33 to db: 'repair_maint' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-03-31T07:31:55.589590Z 34 [Note] Aborted connection 34 to db: 'repair_maint' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-03-31T07:40:28.315529Z 35 [Note] Aborted connection 35 to db: 'repair_maint' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-03-31T08:12:57.074561Z 36 [Note] Aborted connection 36 to db: 'repair_maint' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-03-31T08:30:42.062879Z 37 [Note] Aborted connection 37 to db: 'repair_maint' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-03-31T11:11:35.504526Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 2085301ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2019-03-31T12:18:53.875647Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 2842818ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2019-03-31T13:34:35.557998Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 459639ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2019-04-01T10:02:10.252118Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 70596847ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2019-04-01T12:48:14.070083Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 3575912ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2019-04-02T12:43:07.494384Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 77152850ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2019-04-03T10:48:59.316847Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 70388501ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2019-04-03T11:17:42.246937Z 38 [Note] Access denied for user 'root'@'localhost' (using password: NO)
+2019-04-03T13:40:20.273016Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 2129774ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2019-04-03T14:42:32.393992Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 17627ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2019-04-04T12:05:44.271606Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 76793585ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2019-04-04T14:42:07.364060Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 170428ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2019-04-04T15:04:57.420047Z 41 [Note] Aborted connection 41 to db: 'repair_maint' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-04-05T04:23:08.523550Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 46231112ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2019-04-05T05:45:59.994736Z 43 [Note] Access denied for user 'root'@'localhost' (using password: NO)
+2019-04-05T07:49:45.729416Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 1028166ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2019-04-05T10:30:25.755346Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 5571291ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2019-04-05T11:29:25.287186Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 1101374ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2019-04-05T16:03:33.595110Z 42 [Note] Aborted connection 42 to db: 'repair_maint' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-04-05T16:03:41.057554Z 0 [Note] C:\Program Files\MySQL\MySQL Server 5.7\bin\mysqld.exe: Normal shutdown
+
+2019-04-05T16:03:42.053933Z 0 [Note] Giving 0 client threads a chance to die gracefully
+2019-04-05T16:03:42.055406Z 0 [Note] Shutting down slave threads
+2019-04-05T16:03:42.057195Z 0 [Note] Forcefully disconnecting 0 remaining clients
+2019-04-05T16:03:42.060093Z 0 [Note] Event Scheduler: Purging the queue. 0 events
+2019-04-05T16:03:42.066109Z 0 [Note] Binlog end
+2019-04-05T16:03:42.092612Z 0 [Note] Shutting down plugin 'ngram'
+2019-04-05T16:03:42.094394Z 0 [Note] Shutting down plugin 'partition'
+2019-04-05T16:03:42.095575Z 0 [Note] Shutting down plugin 'BLACKHOLE'
+2019-04-05T16:03:42.096950Z 0 [Note] Shutting down plugin 'ARCHIVE'
+2019-04-05T16:03:42.098087Z 0 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2019-04-05T16:03:42.099677Z 0 [Note] Shutting down plugin 'MRG_MYISAM'
+2019-04-05T16:03:42.101203Z 0 [Note] Shutting down plugin 'MyISAM'
+2019-04-05T16:03:42.102641Z 0 [Note] Shutting down plugin 'INNODB_SYS_VIRTUAL'
+2019-04-05T16:03:42.104180Z 0 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2019-04-05T16:03:42.105405Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2019-04-05T16:03:42.106608Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2019-04-05T16:03:42.107853Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2019-04-05T16:03:42.108993Z 0 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2019-04-05T16:03:42.110098Z 0 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2019-04-05T16:03:42.111224Z 0 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2019-04-05T16:03:42.112384Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2019-04-05T16:03:42.113497Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2019-04-05T16:03:42.114594Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2019-04-05T16:03:42.147050Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2019-04-05T16:03:42.148234Z 0 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2019-04-05T16:03:42.149320Z 0 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2019-04-05T16:03:42.150554Z 0 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2019-04-05T16:03:42.152108Z 0 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2019-04-05T16:03:42.158739Z 0 [Note] Shutting down plugin 'INNODB_METRICS'
+2019-04-05T16:03:42.159828Z 0 [Note] Shutting down plugin 'INNODB_TEMP_TABLE_INFO'
+2019-04-05T16:03:42.161012Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2019-04-05T16:03:42.162223Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2019-04-05T16:03:42.163380Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2019-04-05T16:03:42.164807Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2019-04-05T16:03:42.166671Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2019-04-05T16:03:42.167767Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2019-04-05T16:03:42.168852Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2019-04-05T16:03:42.170847Z 0 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2019-04-05T16:03:42.171858Z 0 [Note] Shutting down plugin 'INNODB_CMP'
+2019-04-05T16:03:42.172836Z 0 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2019-04-05T16:03:42.173981Z 0 [Note] Shutting down plugin 'INNODB_LOCKS'
+2019-04-05T16:03:42.175048Z 0 [Note] Shutting down plugin 'INNODB_TRX'
+2019-04-05T16:03:42.176083Z 0 [Note] Shutting down plugin 'InnoDB'
+2019-04-05T16:03:42.186728Z 0 [Note] InnoDB: FTS optimize thread exiting.
+2019-04-05T16:03:42.187860Z 0 [Note] InnoDB: Starting shutdown...
+2019-04-05T16:03:42.325717Z 0 [Note] InnoDB: Dumping buffer pool(s) to C:\ProgramData\MySQL\MySQL Server 5.7\Data\ib_buffer_pool
+2019-04-05T16:03:42.331053Z 0 [Note] InnoDB: Buffer pool(s) dump completed at 190406  0:03:42
+2019-04-05T16:03:43.340486Z 0 [Note] InnoDB: Shutdown completed; log sequence number 10936869
+2019-04-05T16:03:43.342720Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2019-04-05T16:03:43.343902Z 0 [Note] Shutting down plugin 'MEMORY'
+2019-04-05T16:03:43.344730Z 0 [Note] Shutting down plugin 'CSV'
+2019-04-05T16:03:43.345535Z 0 [Note] Shutting down plugin 'sha256_password'
+2019-04-05T16:03:43.346482Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2019-04-05T16:03:43.348273Z 0 [Note] Shutting down plugin 'binlog'
+2019-04-05T16:03:43.354669Z 0 [Note] C:\Program Files\MySQL\MySQL Server 5.7\bin\mysqld.exe: Shutdown complete
+
+2019-04-06T03:39:09.129643Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2019-04-06T03:39:09.131758Z 0 [Warning] 'NO_ZERO_DATE', 'NO_ZERO_IN_DATE' and 'ERROR_FOR_DIVISION_BY_ZERO' sql modes should be used with strict mode. They will be merged with strict mode in a future release.
+2019-04-06T03:39:09.139152Z 0 [Note] C:\Program Files\MySQL\MySQL Server 5.7\bin\mysqld.exe (mysqld 5.7.25-log) starting as process 6028 ...
+2019-04-06T03:39:09.217810Z 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2019-04-06T03:39:09.219637Z 0 [Note] InnoDB: Uses event mutexes
+2019-04-06T03:39:09.220775Z 0 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2019-04-06T03:39:09.225441Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2019-04-06T03:39:09.234847Z 0 [Note] InnoDB: Adjusting innodb_buffer_pool_instances from 8 to 1 since innodb_buffer_pool_size is less than 1024 MiB
+2019-04-06T03:39:09.245720Z 0 [Note] InnoDB: Number of pools: 1
+2019-04-06T03:39:09.336048Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2019-04-06T03:39:09.348408Z 0 [Note] InnoDB: Initializing buffer pool, total size = 8M, instances = 1, chunk size = 8M
+2019-04-06T03:39:09.353950Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2019-04-06T03:39:09.527304Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2019-04-06T03:39:10.077010Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2019-04-06T03:39:10.079333Z 0 [Note] InnoDB: Setting file '.\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2019-04-06T03:39:10.354005Z 0 [Note] InnoDB: File '.\ibtmp1' size is now 12 MB.
+2019-04-06T03:39:10.369030Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2019-04-06T03:39:10.372474Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2019-04-06T03:39:10.375809Z 0 [Note] InnoDB: Waiting for purge to start
+2019-04-06T03:39:10.496041Z 0 [Note] InnoDB: 5.7.25 started; log sequence number 10936869
+2019-04-06T03:39:10.506330Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2019-04-06T03:39:10.562047Z 0 [Note] InnoDB: Loading buffer pool(s) from C:\ProgramData\MySQL\MySQL Server 5.7\Data\ib_buffer_pool
+2019-04-06T03:39:10.563111Z 0 [Warning] Failed to set up SSL because of the following SSL library error: SSL context is not usable without certificate and private key
+2019-04-06T03:39:10.567561Z 0 [Note] Server hostname (bind-address): '*'; port: 3306
+2019-04-06T03:39:10.569800Z 0 [Note] IPv6 is available.
+2019-04-06T03:39:10.570275Z 0 [Note] InnoDB: Buffer pool(s) load completed at 190406 11:39:10
+2019-04-06T03:39:10.623767Z 0 [Note]   - '::' resolves to '::';
+2019-04-06T03:39:10.625228Z 0 [Note] Server socket created on IP: '::'.
+2019-04-06T03:39:10.627697Z 0 [Note] Shared memory setting up listener
+2019-04-06T03:39:10.955149Z 0 [Note] Failed to start slave threads for channel ''
+2019-04-06T03:39:11.161157Z 0 [Note] Event Scheduler: Loaded 0 events
+2019-04-06T03:39:11.174919Z 0 [Note] C:\Program Files\MySQL\MySQL Server 5.7\bin\mysqld.exe: ready for connections.
+Version: '5.7.25-log'  socket: ''  port: 3306  MySQL Community Server (GPL)
+2019-04-06T06:09:18.170539Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 7676670ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2019-04-06T07:11:27.776706Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 2645958ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2019-04-06T12:33:36.526990Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 5505622ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2019-04-06T13:11:35.503240Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 958356ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2019-04-06T15:33:03.734758Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 389502ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2019-04-06T15:50:05.502225Z 2 [Note] Aborted connection 2 to db: 'repair_maint' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-04-07T00:36:17.727012Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 31559319ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2019-04-07T01:24:26.734364Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 505957ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2019-04-07T03:18:41.019181Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 255218ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2019-04-07T04:22:31.471613Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 3795333ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2019-04-07T05:00:45.453999Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 649941ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2019-04-07T07:48:01.559294Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 2343324ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2019-04-07T08:46:08.499770Z 3 [Note] Access denied for user 'root'@'localhost' (using password: NO)
+2019-04-07T08:46:15.572350Z 4 [Note] Access denied for user 'root'@'localhost' (using password: YES)
+2019-04-07T08:46:20.752340Z 5 [Note] Access denied for user 'root'@'localhost' (using password: NO)
+2019-04-07T08:51:12.349618Z 8 [Note] Aborted connection 8 to db: 'repair_maint' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-04-07T09:01:26.802742Z 9 [Note] Aborted connection 9 to db: 'repair_maint' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-04-07T09:02:47.450576Z 10 [Note] Aborted connection 10 to db: 'repair_maint' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-04-07T09:36:20.175465Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 34146ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2019-04-07T11:16:11.459702Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 2996445ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2019-04-07T11:22:21.105146Z 11 [Note] Aborted connection 11 to db: 'repair_maint' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-04-07T11:56:28.519525Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 674203ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2019-04-07T12:14:09.806966Z 12 [Note] Aborted connection 12 to db: 'repair_maint' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-04-07T13:49:50.526320Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 2845762ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2019-04-07T15:31:17.769601Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 3087221ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2019-04-08T11:44:37.269250Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 72766259ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2019-04-08T13:13:06.218545Z 0 [Note] C:\Program Files\MySQL\MySQL Server 5.7\bin\mysqld.exe: Normal shutdown
+
+2019-04-08T13:13:07.219387Z 0 [Note] Giving 0 client threads a chance to die gracefully
+2019-04-08T13:13:07.221038Z 0 [Note] Shutting down slave threads
+2019-04-08T13:13:07.222758Z 0 [Note] Forcefully disconnecting 0 remaining clients
+2019-04-08T13:13:07.225504Z 0 [Note] Event Scheduler: Purging the queue. 0 events
+2019-04-08T13:13:07.232256Z 0 [Note] Binlog end
+2019-04-08T13:13:07.255340Z 0 [Note] Shutting down plugin 'ngram'
+2019-04-08T13:13:07.256715Z 0 [Note] Shutting down plugin 'partition'
+2019-04-08T13:13:07.257893Z 0 [Note] Shutting down plugin 'BLACKHOLE'
+2019-04-08T13:13:07.259222Z 0 [Note] Shutting down plugin 'ARCHIVE'
+2019-04-08T13:13:07.260271Z 0 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2019-04-08T13:13:07.264295Z 0 [Note] Shutting down plugin 'MRG_MYISAM'
+2019-04-08T13:13:07.266418Z 0 [Note] Shutting down plugin 'MyISAM'
+2019-04-08T13:13:07.268083Z 0 [Note] Shutting down plugin 'INNODB_SYS_VIRTUAL'
+2019-04-08T13:13:07.269608Z 0 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2019-04-08T13:13:07.270756Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2019-04-08T13:13:07.271885Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2019-04-08T13:13:07.273018Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2019-04-08T13:13:07.274048Z 0 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2019-04-08T13:13:07.275103Z 0 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2019-04-08T13:13:07.276189Z 0 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2019-04-08T13:13:07.277271Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2019-04-08T13:13:07.278320Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2019-04-08T13:13:07.279329Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2019-04-08T13:13:07.280521Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2019-04-08T13:13:07.291578Z 0 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2019-04-08T13:13:07.293229Z 0 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2019-04-08T13:13:07.295903Z 0 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2019-04-08T13:13:07.297823Z 0 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2019-04-08T13:13:07.299020Z 0 [Note] Shutting down plugin 'INNODB_METRICS'
+2019-04-08T13:13:07.300045Z 0 [Note] Shutting down plugin 'INNODB_TEMP_TABLE_INFO'
+2019-04-08T13:13:07.302050Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2019-04-08T13:13:07.303130Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2019-04-08T13:13:07.304221Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2019-04-08T13:13:07.305249Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2019-04-08T13:13:07.306344Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2019-04-08T13:13:07.307359Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2019-04-08T13:13:07.308363Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2019-04-08T13:13:07.309298Z 0 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2019-04-08T13:13:07.310259Z 0 [Note] Shutting down plugin 'INNODB_CMP'
+2019-04-08T13:13:07.311155Z 0 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2019-04-08T13:13:07.312141Z 0 [Note] Shutting down plugin 'INNODB_LOCKS'
+2019-04-08T13:13:07.313174Z 0 [Note] Shutting down plugin 'INNODB_TRX'
+2019-04-08T13:13:07.314123Z 0 [Note] Shutting down plugin 'InnoDB'
+2019-04-08T13:13:07.340186Z 0 [Note] InnoDB: FTS optimize thread exiting.
+2019-04-08T13:13:07.341377Z 0 [Note] InnoDB: Starting shutdown...
+2019-04-08T13:13:07.483139Z 0 [Note] InnoDB: Dumping buffer pool(s) to C:\ProgramData\MySQL\MySQL Server 5.7\Data\ib_buffer_pool
+2019-04-08T13:13:07.494085Z 0 [Note] InnoDB: Buffer pool(s) dump completed at 190408 21:13:07
+2019-04-08T13:13:08.182198Z 0 [Note] InnoDB: Shutdown completed; log sequence number 10936897
+2019-04-08T13:13:08.184179Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2019-04-08T13:13:08.185198Z 0 [Note] Shutting down plugin 'MEMORY'
+2019-04-08T13:13:08.185856Z 0 [Note] Shutting down plugin 'CSV'
+2019-04-08T13:13:08.186484Z 0 [Note] Shutting down plugin 'sha256_password'
+2019-04-08T13:13:08.187348Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2019-04-08T13:13:08.189580Z 0 [Note] Shutting down plugin 'binlog'
+2019-04-08T13:13:08.206381Z 0 [Note] C:\Program Files\MySQL\MySQL Server 5.7\bin\mysqld.exe: Shutdown complete
+
+2019-04-08T13:13:33.877394Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2019-04-08T13:13:33.879325Z 0 [Warning] 'NO_ZERO_DATE', 'NO_ZERO_IN_DATE' and 'ERROR_FOR_DIVISION_BY_ZERO' sql modes should be used with strict mode. They will be merged with strict mode in a future release.
+2019-04-08T13:13:33.885612Z 0 [Note] C:\Program Files\MySQL\MySQL Server 5.7\bin\mysqld.exe (mysqld 5.7.25-log) starting as process 5536 ...
+2019-04-08T13:13:34.055338Z 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2019-04-08T13:13:34.056855Z 0 [Note] InnoDB: Uses event mutexes
+2019-04-08T13:13:34.057781Z 0 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2019-04-08T13:13:34.059149Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2019-04-08T13:13:34.060279Z 0 [Note] InnoDB: Adjusting innodb_buffer_pool_instances from 8 to 1 since innodb_buffer_pool_size is less than 1024 MiB
+2019-04-08T13:13:34.066675Z 0 [Note] InnoDB: Number of pools: 1
+2019-04-08T13:13:34.070975Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2019-04-08T13:13:34.089335Z 0 [Note] InnoDB: Initializing buffer pool, total size = 8M, instances = 1, chunk size = 8M
+2019-04-08T13:13:34.092873Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2019-04-08T13:13:34.251859Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2019-04-08T13:13:34.828846Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2019-04-08T13:13:34.831082Z 0 [Note] InnoDB: Setting file '.\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2019-04-08T13:13:35.013688Z 0 [Note] InnoDB: File '.\ibtmp1' size is now 12 MB.
+2019-04-08T13:13:35.019497Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2019-04-08T13:13:35.021442Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2019-04-08T13:13:35.023843Z 0 [Note] InnoDB: Waiting for purge to start
+2019-04-08T13:13:35.124845Z 0 [Note] InnoDB: 5.7.25 started; log sequence number 10936897
+2019-04-08T13:13:35.127877Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2019-04-08T13:13:35.152316Z 0 [Note] InnoDB: Loading buffer pool(s) from C:\ProgramData\MySQL\MySQL Server 5.7\Data\ib_buffer_pool
+2019-04-08T13:13:35.196574Z 0 [Note] InnoDB: Buffer pool(s) load completed at 190408 21:13:35
+2019-04-08T13:13:35.260985Z 0 [Warning] Failed to set up SSL because of the following SSL library error: SSL context is not usable without certificate and private key
+2019-04-08T13:13:35.263739Z 0 [Note] Server hostname (bind-address): '*'; port: 3306
+2019-04-08T13:13:35.265375Z 0 [Note] IPv6 is available.
+2019-04-08T13:13:35.266295Z 0 [Note]   - '::' resolves to '::';
+2019-04-08T13:13:35.267566Z 0 [Note] Server socket created on IP: '::'.
+2019-04-08T13:13:35.269598Z 0 [Note] Shared memory setting up listener
+2019-04-08T13:13:35.423978Z 0 [Note] Failed to start slave threads for channel ''
+2019-04-08T13:13:35.662022Z 0 [Note] Event Scheduler: Loaded 0 events
+2019-04-08T13:13:35.663428Z 0 [Note] C:\Program Files\MySQL\MySQL Server 5.7\bin\mysqld.exe: ready for connections.
+Version: '5.7.25-log'  socket: ''  port: 3306  MySQL Community Server (GPL)
+2019-04-08T14:21:51.074991Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 1878152ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2019-04-08T14:22:01.309213Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 5134ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2019-04-09T10:29:34.858406Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 69261908ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2019-04-09T13:59:11.525309Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 1843951ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2019-04-10T11:51:18.305014Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 75232607ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2019-04-10T13:15:20.199991Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 1477725ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2019-04-10T15:07:10.354977Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 80108ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2019-04-10T15:29:37.067728Z 0 [Note] C:\Program Files\MySQL\MySQL Server 5.7\bin\mysqld.exe: Normal shutdown
+
+2019-04-10T15:29:38.083791Z 0 [Note] Giving 0 client threads a chance to die gracefully
+2019-04-10T15:29:38.085325Z 0 [Note] Shutting down slave threads
+2019-04-10T15:29:38.087618Z 0 [Note] Forcefully disconnecting 0 remaining clients
+2019-04-10T15:29:38.102321Z 0 [Note] Event Scheduler: Purging the queue. 0 events
+2019-04-10T15:29:38.111922Z 0 [Note] Binlog end
+2019-04-10T15:29:38.151827Z 0 [Note] Shutting down plugin 'ngram'
+2019-04-10T15:29:38.153232Z 0 [Note] Shutting down plugin 'partition'
+2019-04-10T15:29:38.154417Z 0 [Note] Shutting down plugin 'BLACKHOLE'
+2019-04-10T15:29:38.155406Z 0 [Note] Shutting down plugin 'ARCHIVE'
+2019-04-10T15:29:38.156219Z 0 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2019-04-10T15:29:38.163264Z 0 [Note] Shutting down plugin 'MRG_MYISAM'
+2019-04-10T15:29:38.164908Z 0 [Note] Shutting down plugin 'MyISAM'
+2019-04-10T15:29:38.165881Z 0 [Note] Shutting down plugin 'INNODB_SYS_VIRTUAL'
+2019-04-10T15:29:38.166973Z 0 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2019-04-10T15:29:38.168072Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2019-04-10T15:29:38.169220Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2019-04-10T15:29:38.170378Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2019-04-10T15:29:38.174368Z 0 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2019-04-10T15:29:38.175175Z 0 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2019-04-10T15:29:38.176186Z 0 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2019-04-10T15:29:38.177279Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2019-04-10T15:29:38.178446Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2019-04-10T15:29:38.179574Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2019-04-10T15:29:38.180791Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2019-04-10T15:29:38.181986Z 0 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2019-04-10T15:29:38.183077Z 0 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2019-04-10T15:29:38.184219Z 0 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2019-04-10T15:29:38.206499Z 0 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2019-04-10T15:29:38.218409Z 0 [Note] Shutting down plugin 'INNODB_METRICS'
+2019-04-10T15:29:38.220751Z 0 [Note] Shutting down plugin 'INNODB_TEMP_TABLE_INFO'
+2019-04-10T15:29:38.222696Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2019-04-10T15:29:38.223868Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2019-04-10T15:29:38.225060Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2019-04-10T15:29:38.226212Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2019-04-10T15:29:38.227357Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2019-04-10T15:29:38.228466Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2019-04-10T15:29:38.229528Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2019-04-10T15:29:38.231238Z 0 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2019-04-10T15:29:38.232279Z 0 [Note] Shutting down plugin 'INNODB_CMP'
+2019-04-10T15:29:38.233268Z 0 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2019-04-10T15:29:38.234394Z 0 [Note] Shutting down plugin 'INNODB_LOCKS'
+2019-04-10T15:29:38.235434Z 0 [Note] Shutting down plugin 'INNODB_TRX'
+2019-04-10T15:29:38.236438Z 0 [Note] Shutting down plugin 'InnoDB'
+2019-04-10T15:29:38.254191Z 0 [Note] InnoDB: FTS optimize thread exiting.
+2019-04-10T15:29:38.255527Z 0 [Note] InnoDB: Starting shutdown...
+2019-04-10T15:29:38.397070Z 0 [Note] InnoDB: Dumping buffer pool(s) to C:\ProgramData\MySQL\MySQL Server 5.7\Data\ib_buffer_pool
+2019-04-10T15:29:38.408035Z 0 [Note] InnoDB: Buffer pool(s) dump completed at 190410 23:29:38
+2019-04-10T15:29:39.176018Z 0 [Note] InnoDB: Shutdown completed; log sequence number 10936925
+2019-04-10T15:29:39.178214Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2019-04-10T15:29:39.179155Z 0 [Note] Shutting down plugin 'MEMORY'
+2019-04-10T15:29:39.179807Z 0 [Note] Shutting down plugin 'CSV'
+2019-04-10T15:29:39.180468Z 0 [Note] Shutting down plugin 'sha256_password'
+2019-04-10T15:29:39.181324Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2019-04-10T15:29:39.183279Z 0 [Note] Shutting down plugin 'binlog'
+2019-04-10T15:29:39.189289Z 0 [Note] C:\Program Files\MySQL\MySQL Server 5.7\bin\mysqld.exe: Shutdown complete
+
+2019-04-11T14:03:12.006223Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2019-04-11T14:03:12.010051Z 0 [Warning] 'NO_ZERO_DATE', 'NO_ZERO_IN_DATE' and 'ERROR_FOR_DIVISION_BY_ZERO' sql modes should be used with strict mode. They will be merged with strict mode in a future release.
+2019-04-11T14:03:12.016549Z 0 [Note] C:\Program Files\MySQL\MySQL Server 5.7\bin\mysqld.exe (mysqld 5.7.25-log) starting as process 4104 ...
+2019-04-11T14:03:12.125728Z 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2019-04-11T14:03:12.127260Z 0 [Note] InnoDB: Uses event mutexes
+2019-04-11T14:03:12.128271Z 0 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2019-04-11T14:03:12.129798Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2019-04-11T14:03:12.130914Z 0 [Note] InnoDB: Adjusting innodb_buffer_pool_instances from 8 to 1 since innodb_buffer_pool_size is less than 1024 MiB
+2019-04-11T14:03:12.137516Z 0 [Note] InnoDB: Number of pools: 1
+2019-04-11T14:03:12.141696Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2019-04-11T14:03:12.200955Z 0 [Note] InnoDB: Initializing buffer pool, total size = 8M, instances = 1, chunk size = 8M
+2019-04-11T14:03:12.205535Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2019-04-11T14:03:12.325252Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2019-04-11T14:03:12.821114Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2019-04-11T14:03:12.840558Z 0 [Note] InnoDB: Setting file '.\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2019-04-11T14:03:12.899831Z 0 [Note] InnoDB: File '.\ibtmp1' size is now 12 MB.
+2019-04-11T14:03:12.904538Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2019-04-11T14:03:12.906219Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2019-04-11T14:03:12.911676Z 0 [Note] InnoDB: Waiting for purge to start
+2019-04-11T14:03:12.991455Z 0 [Note] InnoDB: 5.7.25 started; log sequence number 10936925
+2019-04-11T14:03:12.995744Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2019-04-11T14:03:13.018372Z 0 [Note] InnoDB: Loading buffer pool(s) from C:\ProgramData\MySQL\MySQL Server 5.7\Data\ib_buffer_pool
+2019-04-11T14:03:13.112686Z 0 [Warning] Failed to set up SSL because of the following SSL library error: SSL context is not usable without certificate and private key
+2019-04-11T14:03:13.115590Z 0 [Note] Server hostname (bind-address): '*'; port: 3306
+2019-04-11T14:03:13.118087Z 0 [Note] IPv6 is available.
+2019-04-11T14:03:13.118987Z 0 [Note]   - '::' resolves to '::';
+2019-04-11T14:03:13.122007Z 0 [Note] Server socket created on IP: '::'.
+2019-04-11T14:03:13.122122Z 0 [Note] InnoDB: Buffer pool(s) load completed at 190411 22:03:13
+2019-04-11T14:03:13.125586Z 0 [Note] Shared memory setting up listener
+2019-04-11T14:03:13.208709Z 0 [Note] Failed to start slave threads for channel ''
+2019-04-11T14:03:13.405073Z 0 [Note] Event Scheduler: Loaded 0 events
+2019-04-11T14:03:13.406610Z 0 [Note] C:\Program Files\MySQL\MySQL Server 5.7\bin\mysqld.exe: ready for connections.
+Version: '5.7.25-log'  socket: ''  port: 3306  MySQL Community Server (GPL)
+2019-04-11T14:04:54.990787Z 0 [Note] C:\Program Files\MySQL\MySQL Server 5.7\bin\mysqld.exe: Normal shutdown
+
+2019-04-11T14:04:55.982108Z 0 [Note] Giving 0 client threads a chance to die gracefully
+2019-04-11T14:04:55.983220Z 0 [Note] Shutting down slave threads
+2019-04-11T14:04:55.984047Z 0 [Note] Forcefully disconnecting 0 remaining clients
+2019-04-11T14:04:55.985115Z 0 [Note] Event Scheduler: Purging the queue. 0 events
+2019-04-11T14:04:55.986424Z 0 [Note] Binlog end
+2019-04-11T14:04:55.988457Z 0 [Note] Shutting down plugin 'ngram'
+2019-04-11T14:04:55.991859Z 0 [Note] Shutting down plugin 'partition'
+2019-04-11T14:04:55.992722Z 0 [Note] Shutting down plugin 'BLACKHOLE'
+2019-04-11T14:04:55.993550Z 0 [Note] Shutting down plugin 'ARCHIVE'
+2019-04-11T14:04:55.994577Z 0 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2019-04-11T14:04:55.995884Z 0 [Note] Shutting down plugin 'MRG_MYISAM'
+2019-04-11T14:04:55.996955Z 0 [Note] Shutting down plugin 'MyISAM'
+2019-04-11T14:04:55.997924Z 0 [Note] Shutting down plugin 'INNODB_SYS_VIRTUAL'
+2019-04-11T14:04:55.999049Z 0 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2019-04-11T14:04:56.002978Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2019-04-11T14:04:56.006685Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2019-04-11T14:04:56.007755Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2019-04-11T14:04:56.008711Z 0 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2019-04-11T14:04:56.009710Z 0 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2019-04-11T14:04:56.010669Z 0 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2019-04-11T14:04:56.011631Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2019-04-11T14:04:56.012654Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2019-04-11T14:04:56.013598Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2019-04-11T14:04:56.014649Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2019-04-11T14:04:56.015640Z 0 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2019-04-11T14:04:56.016589Z 0 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2019-04-11T14:04:56.017620Z 0 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2019-04-11T14:04:56.029801Z 0 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2019-04-11T14:04:56.030945Z 0 [Note] Shutting down plugin 'INNODB_METRICS'
+2019-04-11T14:04:56.031918Z 0 [Note] Shutting down plugin 'INNODB_TEMP_TABLE_INFO'
+2019-04-11T14:04:56.032916Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2019-04-11T14:04:56.033895Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2019-04-11T14:04:56.035851Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2019-04-11T14:04:56.036666Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2019-04-11T14:04:56.037953Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2019-04-11T14:04:56.038757Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2019-04-11T14:04:56.039552Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2019-04-11T14:04:56.040287Z 0 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2019-04-11T14:04:56.041052Z 0 [Note] Shutting down plugin 'INNODB_CMP'
+2019-04-11T14:04:56.041759Z 0 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2019-04-11T14:04:56.042537Z 0 [Note] Shutting down plugin 'INNODB_LOCKS'
+2019-04-11T14:04:56.043269Z 0 [Note] Shutting down plugin 'INNODB_TRX'
+2019-04-11T14:04:56.043996Z 0 [Note] Shutting down plugin 'InnoDB'
+2019-04-11T14:04:56.050854Z 0 [Note] InnoDB: FTS optimize thread exiting.
+2019-04-11T14:04:56.053040Z 0 [Note] InnoDB: Starting shutdown...
+2019-04-11T14:04:56.171053Z 0 [Note] InnoDB: Dumping buffer pool(s) to C:\ProgramData\MySQL\MySQL Server 5.7\Data\ib_buffer_pool
+2019-04-11T14:04:56.179105Z 0 [Note] InnoDB: Buffer pool(s) dump completed at 190411 22:04:56
+2019-04-11T14:04:56.850104Z 0 [Note] InnoDB: Shutdown completed; log sequence number 10936953
+2019-04-11T14:04:56.855201Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2019-04-11T14:04:56.858320Z 0 [Note] Shutting down plugin 'MEMORY'
+2019-04-11T14:04:56.860377Z 0 [Note] Shutting down plugin 'CSV'
+2019-04-11T14:04:56.862351Z 0 [Note] Shutting down plugin 'sha256_password'
+2019-04-11T14:04:56.864679Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2019-04-11T14:04:56.867733Z 0 [Note] Shutting down plugin 'binlog'
+2019-04-11T14:04:56.879832Z 0 [Note] C:\Program Files\MySQL\MySQL Server 5.7\bin\mysqld.exe: Shutdown complete
+
+2019-04-11T14:05:20.138067Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2019-04-11T14:05:20.140873Z 0 [Warning] 'NO_ZERO_DATE', 'NO_ZERO_IN_DATE' and 'ERROR_FOR_DIVISION_BY_ZERO' sql modes should be used with strict mode. They will be merged with strict mode in a future release.
+2019-04-11T14:05:20.156804Z 0 [Note] C:\Program Files\MySQL\MySQL Server 5.7\bin\mysqld.exe (mysqld 5.7.25-log) starting as process 4292 ...
+2019-04-11T14:05:20.314314Z 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2019-04-11T14:05:20.315861Z 0 [Note] InnoDB: Uses event mutexes
+2019-04-11T14:05:20.316900Z 0 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2019-04-11T14:05:20.319448Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2019-04-11T14:05:20.320745Z 0 [Note] InnoDB: Adjusting innodb_buffer_pool_instances from 8 to 1 since innodb_buffer_pool_size is less than 1024 MiB
+2019-04-11T14:05:20.331758Z 0 [Note] InnoDB: Number of pools: 1
+2019-04-11T14:05:20.395027Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2019-04-11T14:05:20.405349Z 0 [Note] InnoDB: Initializing buffer pool, total size = 8M, instances = 1, chunk size = 8M
+2019-04-11T14:05:20.411739Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2019-04-11T14:05:20.530793Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2019-04-11T14:05:21.128869Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2019-04-11T14:05:21.224291Z 0 [Note] InnoDB: Setting file '.\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2019-04-11T14:05:21.267255Z 0 [Note] InnoDB: File '.\ibtmp1' size is now 12 MB.
+2019-04-11T14:05:21.273629Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2019-04-11T14:05:21.276056Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2019-04-11T14:05:21.278235Z 0 [Note] InnoDB: Waiting for purge to start
+2019-04-11T14:05:21.379465Z 0 [Note] InnoDB: 5.7.25 started; log sequence number 10936953
+2019-04-11T14:05:21.392130Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2019-04-11T14:05:21.427968Z 0 [Note] InnoDB: Loading buffer pool(s) from C:\ProgramData\MySQL\MySQL Server 5.7\Data\ib_buffer_pool
+2019-04-11T14:05:21.438257Z 0 [Warning] Failed to set up SSL because of the following SSL library error: SSL context is not usable without certificate and private key
+2019-04-11T14:05:21.440922Z 0 [Note] Server hostname (bind-address): '*'; port: 3306
+2019-04-11T14:05:21.442567Z 0 [Note] IPv6 is available.
+2019-04-11T14:05:21.443621Z 0 [Note]   - '::' resolves to '::';
+2019-04-11T14:05:21.444713Z 0 [Note] Server socket created on IP: '::'.
+2019-04-11T14:05:21.446963Z 0 [Note] Shared memory setting up listener
+2019-04-11T14:05:21.559004Z 0 [Note] InnoDB: Buffer pool(s) load completed at 190411 22:05:21
+2019-04-11T14:05:21.631791Z 0 [Note] Failed to start slave threads for channel ''
+2019-04-11T14:05:21.903328Z 0 [Note] Event Scheduler: Loaded 0 events
+2019-04-11T14:05:21.905172Z 0 [Note] C:\Program Files\MySQL\MySQL Server 5.7\bin\mysqld.exe: ready for connections.
+Version: '5.7.25-log'  socket: ''  port: 3306  MySQL Community Server (GPL)
+2019-04-11T23:46:59.393635Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 31349742ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2019-04-12T11:33:50.723577Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 42314336ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2019-04-12T13:13:59.034212Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 814501ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2019-04-12T13:57:15.129869Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 2573045ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2019-04-13T05:38:53.554649Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 52178031ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2019-04-13T06:28:04.682924Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 1748413ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2019-04-13T09:06:58.451580Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 3143276ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2019-04-13T13:59:13.495147Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 1967046ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2019-04-14T01:03:57.096614Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 34691049ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2019-04-14T01:49:01.747522Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 1298471ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2019-04-14T05:02:08.582006Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 8125097ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2019-04-14T05:20:50.726101Z 3 [Note] Access denied for user 'root'@'localhost' (using password: NO)
+2019-04-14T05:20:54.973948Z 4 [Note] Access denied for user 'root'@'localhost' (using password: YES)
+2019-04-14T05:20:59.255041Z 5 [Note] Access denied for user 'root'@'localhost' (using password: NO)
+2019-04-14T07:04:48.348906Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 9278ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2019-04-14T07:48:19.784368Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 2603425ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2019-04-14T09:48:05.185968Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 129710ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2019-04-14T11:59:24.631769Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 2762542ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2019-04-14T13:21:42.369813Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 2737564ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2019-04-14T13:59:09.760832Z 8 [Note] Aborted connection 8 to db: 'repair_maint' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-04-14T14:38:51.207785Z 9 [Note] Aborted connection 9 to db: 'repair_maint' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-04-15T11:22:08.354779Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 74553600ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2019-04-15T12:36:23.338105Z 10 [Note] Aborted connection 10 to db: 'repair_maint' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-04-15T12:44:15.965290Z 11 [Note] Aborted connection 11 to db: 'repair_maint' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-04-15T12:48:38.121305Z 13 [Warning] IP address '113.4.133.2' could not be resolved: No such host is known. 
+2019-04-15T13:03:48.880313Z 12 [Note] Aborted connection 12 to db: 'repair_maint' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-04-15T13:38:11.326128Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 1806138ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2019-04-15T14:57:48.265150Z 14 [Note] Aborted connection 14 to db: 'repair_maint' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-04-16T06:28:54.215658Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 55852230ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2019-04-16T06:36:24.832803Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 19353ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2019-04-16T07:24:23.587995Z 16 [Note] Access denied for user 'root'@'localhost' (using password: NO)
+2019-04-16T07:52:35.545032Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 126141ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2019-04-16T08:44:35.966220Z 15 [Note] Aborted connection 15 to db: 'repair_maint' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-04-16T08:47:22.091593Z 19 [Note] Aborted connection 19 to db: 'repair_maint' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-04-16T08:48:39.600132Z 20 [Note] Aborted connection 20 to db: 'repair_maint' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-04-16T08:53:34.647451Z 21 [Note] Aborted connection 21 to db: 'repair_maint' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-04-16T08:54:00.151426Z 22 [Note] Aborted connection 22 to db: 'repair_maint' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-04-16T08:56:19.210836Z 23 [Note] Aborted connection 23 to db: 'repair_maint' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-04-16T08:56:50.114125Z 24 [Note] Aborted connection 24 to db: 'repair_maint' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-04-16T09:08:19.820691Z 25 [Note] Aborted connection 25 to db: 'repair_maint' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-04-16T09:14:28.465410Z 26 [Note] Aborted connection 26 to db: 'repair_maint' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-04-16T09:17:42.540258Z 27 [Note] Aborted connection 27 to db: 'repair_maint' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-04-16T09:18:18.600159Z 28 [Note] Aborted connection 28 to db: 'repair_maint' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-04-16T09:18:36.083680Z 29 [Note] Aborted connection 29 to db: 'repair_maint' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-04-16T09:20:12.465063Z 30 [Note] Aborted connection 30 to db: 'repair_maint' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-04-16T09:20:56.323440Z 31 [Note] Aborted connection 31 to db: 'repair_maint' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-04-16T09:22:34.376841Z 32 [Note] Aborted connection 32 to db: 'repair_maint' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-04-16T10:52:00.726451Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 326933ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2019-04-16T11:05:04.888163Z 36 [Warning] Host name 'hostby.okpayinvest.net' could not be resolved: No such host is known. 
+2019-04-16T11:26:34.893919Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 64818ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2019-04-16T12:58:57.753817Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 1872710ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2019-04-16T15:02:15.084540Z 33 [Note] Aborted connection 33 to db: 'repair_maint' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-04-16T15:03:05.066770Z 17 [Note] Aborted connection 17 to db: 'repair_maint' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-04-16T15:03:05.066911Z 18 [Note] Aborted connection 18 to db: 'repair_maint' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-04-16T15:03:05.075693Z 35 [Note] Aborted connection 35 to db: 'unconnected' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-04-16T15:03:05.081252Z 34 [Note] Aborted connection 34 to db: 'unconnected' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-04-17T11:24:17.223046Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 73242263ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2019-04-17T12:34:29.236163Z 38 [Note] Access denied for user 'root'@'localhost' (using password: NO)
+2019-04-17T15:05:25.999778Z 37 [Note] Aborted connection 37 to db: 'repair_maint' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-04-18T11:15:11.533501Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 71391586ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2019-04-18T15:16:22.863537Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 8735894ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2019-04-19T03:18:34.336335Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 43300259ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2019-04-19T04:01:25.196813Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 443757ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2019-04-19T06:39:21.136812Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 3837646ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2019-04-19T06:55:07.100728Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 5362ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2019-04-19T07:36:07.184949Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 2322969ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)

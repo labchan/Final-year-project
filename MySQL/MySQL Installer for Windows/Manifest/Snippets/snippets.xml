@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProductManifest xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+  <ProductCategories>
+    <ProductCategory type="Server" description="MySQL Database Servers" title="MySQL Servers" >
+      <Product name="mysql-server" title="MySQL Server" homeUrl="http://dev.mysql.com/downloads/mysql/" cdnUrl="http://cdn.mysql.com/Downloads/MySQL-5.6/[file]" mosUrl="" archiveUrl="" changesUrlTemplate="http://dev.mysql.com/doc/relnotes/mysql/[major].[minor]/en/news-[major]-[minor]-[revision].html" upgradeType="Series" setupTypeFlags="3">
+          <ProductSeries name="MySQL Server 5.6" cdnUrl="http://cdn.mysql.com/Downloads/MySQL-5.6/[file]" mosUrl="https://updates.oracle.com/Orion/Services/download/[archive]?aru=[number]&amp;patch_file=[archive]" archiveUrl="http://cdn.mysql.com/archives/mysql-5.6/[file]" relatedVersion="5.6" >
+              <Package type="MSI" arch="X64" filename="mysql-5.6.43-winx64.msi" id="{7A01ED2E-638E-481E-AB69-AD30C524C269}" version="5.6.43" upgradeCode="{88AD3A5F-E83F-4B83-9D6B-6B38189E9AC5}" license="Community" maturity="GA" download="true" revoked="false">
+                <Feature name="RegKeys" default="true" size="0" display="0" hasComponents="true"/>
+                <Feature name="MISC" title="MISC" description="MISC" default="true" size="0" display="0" hasComponents="false">
+                  <Feature name="IniFiles" title="CPACK_COMPONENT_INIFILES_DISPLAY_NAME" description="CPACK_COMPONENT_INIFILES_DESCRIPTION" default="true" size="1141" display="2" hasComponents="true"/>
+                  <Feature name="Server_Scripts" title="CPACK_COMPONENT_SERVER_SCRIPTS_DISPLAY_NAME" description="CPACK_COMPONENT_SERVER_SCRIPTS_DESCRIPTION" default="true" size="86617" display="4" hasComponents="true"/>
+                </Feature>
+                <Feature name="ALWAYSINSTALL" title="ALWAYSINSTALL" description="ALWAYSINSTALL" default="true" size="0" display="0" hasComponents="false">
+                  <Feature name="Readme" title="CPACK_COMPONENT_README_DISPLAY_NAME" description="CPACK_COMPONENT_README_DESCRIPTION" default="true" size="20483" display="2" hasComponents="true"/>
+                </Feature>
+                <Feature name="ProgramMenu" default="true" size="0" display="0" hasComponents="true"/>
+                <Feature name="MYSQLSERVER" title="MySQL Server" description="Install MySQL Server" default="true" size="147140873" display="1" hasComponents="true">
+                  <Feature name="Client" title="Client Programs" description="Various helpful (commandline) tools including the mysql command line client" default="true" size="82748416" display="2" hasComponents="true"/>
+                </Feature>
+                <Feature name="DEVEL" title="Development Components" description="Installs C/C++ header files and libraries" default="true" size="19989108" display="2" hasComponents="true">
+                  <Feature name="SharedLibraries" title="Client C API library (shared)" description="Installs shared client library" default="true" size="4448508" display="2" hasComponents="true"/>
+                </Feature>
+                <Feature name="DOCUMENTATION" title="Documentation" description="Installs documentation" default="false" size="282" display="4" hasComponents="true"/>
+                <Feature name="UserEditableDataFiles" title="Server data files" description="Server data files" default="true" size="115281472" display="6" hasComponents="true"/>
+              </Package>
+              <Package type="MSI" arch="X86" filename="mysql-5.6.43-win32.msi" id="{B7DB0A0A-E8F6-4668-95E1-2D9BCC122B3E}" version="5.6.43" upgradeCode="{88AD3A5F-E83F-4B83-9D6B-6B38189E9AC5}" license="Community" maturity="GA" download="true" revoked="false">
+                <Feature name="RegKeys" default="true" size="0" display="0" hasComponents="true"/>
+                <Feature name="MISC" title="MISC" description="MISC" default="true" size="0" display="0" hasComponents="false">
+                  <Feature name="IniFiles" title="CPACK_COMPONENT_INIFILES_DISPLAY_NAME" description="CPACK_COMPONENT_INIFILES_DESCRIPTION" default="true" size="1141" display="2" hasComponents="true"/>
+                  <Feature name="Server_Scripts" title="CPACK_COMPONENT_SERVER_SCRIPTS_DISPLAY_NAME" description="CPACK_COMPONENT_SERVER_SCRIPTS_DESCRIPTION" default="true" size="86707" display="4" hasComponents="true"/>
+                </Feature>
+                <Feature name="ALWAYSINSTALL" title="ALWAYSINSTALL" description="ALWAYSINSTALL" default="true" size="0" display="0" hasComponents="false">
+                  <Feature name="Readme" title="CPACK_COMPONENT_README_DISPLAY_NAME" description="CPACK_COMPONENT_README_DESCRIPTION" default="true" size="20483" display="2" hasComponents="true"/>
+                </Feature>
+                <Feature name="ProgramMenu" default="true" size="0" display="0" hasComponents="true"/>
+                <Feature name="MYSQLSERVER" title="MySQL Server" description="Install MySQL Server" default="true" size="144450313" display="1" hasComponents="true">
+                  <Feature name="Client" title="Client Programs" description="Various helpful (commandline) tools including the mysql command line client" default="true" size="76871680" display="2" hasComponents="true"/>
+                </Feature>
+                <Feature name="DEVEL" title="Development Components" description="Installs C/C++ header files and libraries" default="true" size="19071804" display="2" hasComponents="true">
+                  <Feature name="SharedLibraries" title="Client C API library (shared)" description="Installs shared client library" default="true" size="4197778" display="2" hasComponents="true"/>
+                </Feature>
+                <Feature name="DOCUMENTATION" title="Documentation" description="Installs documentation" default="false" size="282" display="4" hasComponents="true"/>
+                <Feature name="UserEditableDataFiles" title="Server data files" description="Server data files" default="true" size="115281472" display="6" hasComponents="true"/>
+              </Package>
+              <Package type="MSI" arch="X64" filename="mysql-advanced-5.6.43-winx64.msi" id="{FC3DCC0B-4905-496D-B029-D05485CC41D6}" version="5.6.43" upgradeCode="{88AD3A5F-E83F-4B83-9D6B-6B38189E9AC5}" license="Commercial" maturity="GA" download="true" revoked="false">
+                <Feature name="RegKeys" default="true" size="0" display="0" hasComponents="true"/>
+                <Feature name="MISC" title="MISC" description="MISC" default="true" size="0" display="0" hasComponents="false">
+                  <Feature name="IniFiles" title="CPACK_COMPONENT_INIFILES_DISPLAY_NAME" description="CPACK_COMPONENT_INIFILES_DESCRIPTION" default="true" size="1141" display="2" hasComponents="true"/>
+                  <Feature name="Server_Scripts" title="CPACK_COMPONENT_SERVER_SCRIPTS_DISPLAY_NAME" description="CPACK_COMPONENT_SERVER_SCRIPTS_DESCRIPTION" default="true" size="88032" display="4" hasComponents="true"/>
+                </Feature>
+                <Feature name="ALWAYSINSTALL" title="ALWAYSINSTALL" description="ALWAYSINSTALL" default="true" size="0" display="0" hasComponents="false">
+                  <Feature name="Readme" title="CPACK_COMPONENT_README_DISPLAY_NAME" description="CPACK_COMPONENT_README_DESCRIPTION" default="true" size="4178" display="2" hasComponents="true"/>
+                </Feature>
+                <Feature name="ProgramMenu" default="true" size="0" display="0" hasComponents="true"/>
+                <Feature name="MYSQLSERVER" title="MySQL Server" description="Install MySQL Server" default="true" size="160056816" display="1" hasComponents="true">
+                  <Feature name="Client" title="Client Programs" description="Various helpful (commandline) tools including the mysql command line client" default="true" size="111651840" display="2" hasComponents="true"/>
+                </Feature>
+                <Feature name="DEVEL" title="Development Components" description="Installs C/C++ header files and libraries" default="true" size="15140187" display="2" hasComponents="true">
+                  <Feature name="SharedLibraries" title="Client C API library (shared)" description="Installs shared client library" default="true" size="6459132" display="2" hasComponents="true"/>
+                </Feature>
+                <Feature name="DOCUMENTATION" title="Documentation" description="Installs documentation" default="false" size="282" display="4" hasComponents="true"/>
+                <Feature name="UserEditableDataFiles" title="Server data files" description="Server data files" default="true" size="115281472" display="6" hasComponents="true"/>
+              </Package>
+              <Package type="MSI" arch="X86" filename="mysql-advanced-5.6.43-win32.msi" id="{C34CB37D-A916-470C-98D6-AC0B834F055F}" version="5.6.43" upgradeCode="{88AD3A5F-E83F-4B83-9D6B-6B38189E9AC5}" license="Commercial" maturity="GA" download="true" revoked="false">
+                <Feature name="RegKeys" default="true" size="0" display="0" hasComponents="true"/>
+                <Feature name="MISC" title="MISC" description="MISC" default="true" size="0" display="0" hasComponents="false">
+                  <Feature name="IniFiles" title="CPACK_COMPONENT_INIFILES_DISPLAY_NAME" description="CPACK_COMPONENT_INIFILES_DESCRIPTION" default="true" size="1141" display="2" hasComponents="true"/>
+                  <Feature name="Server_Scripts" title="CPACK_COMPONENT_SERVER_SCRIPTS_DISPLAY_NAME" description="CPACK_COMPONENT_SERVER_SCRIPTS_DESCRIPTION" default="true" size="88122" display="4" hasComponents="true"/>
+                </Feature>
+                <Feature name="ALWAYSINSTALL" title="ALWAYSINSTALL" description="ALWAYSINSTALL" default="true" size="0" display="0" hasComponents="false">
+                  <Feature name="Readme" title="CPACK_COMPONENT_README_DISPLAY_NAME" description="CPACK_COMPONENT_README_DESCRIPTION" default="true" size="4178" display="2" hasComponents="true"/>
+                </Feature>
+                <Feature name="ProgramMenu" default="true" size="0" display="0" hasComponents="true"/>
+                <Feature name="MYSQLSERVER" title="MySQL Server" description="Install MySQL Server" default="true" size="153988080" display="1" hasComponents="true">
+                  <Feature name="Client" title="Client Programs" description="Various helpful (commandline) tools including the mysql command line client" default="true" size="97333760" display="2" hasComponents="true"/>
+                </Feature>
+                <Feature name="DEVEL" title="Development Components" description="Installs C/C++ header files and libraries" default="true" size="14669117" display="2" hasComponents="true">
+                  <Feature name="SharedLibraries" title="Client C API library (shared)" description="Installs shared client library" default="true" size="5619090" display="2" hasComponents="true"/>
+                </Feature>
+                <Feature name="DOCUMENTATION" title="Documentation" description="Installs documentation" default="false" size="282" display="4" hasComponents="true"/>
+                <Feature name="UserEditableDataFiles" title="Server data files" description="Server data files" default="true" size="115281472" display="6" hasComponents="true"/>
+              </Package>
+          </ProductSeries>
+          <ProductSeries name="MySQL Server 5.7" cdnUrl="http://cdn.mysql.com/Downloads/MySQL-5.7/[file]" mosUrl="https://updates.oracle.com/Orion/Services/download/[archive]?aru=[number]&amp;patch_file=[archive]" archiveUrl="http://cdn.mysql.com/archives/mysql-5.7/[file]" relatedVersion="5.7" >
+              <Package type="MSI" arch="X64" filename="mysql-5.7.25-winx64.msi" id="{DB292F7A-43BB-4149-8D1C-9487B69A53A5}" version="5.7.25" upgradeCode="{F59F931A-0282-45D0-97CD-33F8B43AE3C2}" license="Community" maturity="GA" download="true" revoked="false">
+                <Feature name="RegKeys" default="true" size="0" display="0" hasComponents="true"/>
+                <Feature name="ALWAYSINSTALL" title="ALWAYSINSTALL" description="ALWAYSINSTALL" default="true" size="0" display="0" hasComponents="false">
+                  <Feature name="Readme" title="CPACK_COMPONENT_README_DISPLAY_NAME" description="CPACK_COMPONENT_README_DESCRIPTION" default="true" size="20465" display="2" hasComponents="true"/>
+                </Feature>
+                <Feature name="MISC" title="MISC" description="MISC" default="true" size="0" display="0" hasComponents="false">
+                  <Feature name="Server_Scripts" title="CPACK_COMPONENT_SERVER_SCRIPTS_DISPLAY_NAME" description="CPACK_COMPONENT_SERVER_SCRIPTS_DESCRIPTION" default="true" size="35607" display="2" hasComponents="true"/>
+                </Feature>
+                <Feature name="ProgramMenu" default="true" size="0" display="0" hasComponents="true"/>
+                <Feature name="MYSQLSERVER" title="MySQL Server" description="Install MySQL Server" default="true" size="200452527" display="1" hasComponents="true">
+                  <Feature name="Client" title="Client Programs" description="Various helpful (commandline) tools including the mysql command line client" default="true" size="102799360" display="2" hasComponents="true"/>
+                </Feature>
+                <Feature name="DEVEL" title="Development Components" description="Installs C/C++ header files and libraries" default="true" size="26073357" display="2" hasComponents="true">
+                  <Feature name="SharedLibraries" title="Client C API library (shared)" description="Installs shared client library" default="true" size="4100428" display="2" hasComponents="true"/>
+                </Feature>
+                <Feature name="DOCUMENTATION" title="Documentation" description="Installs documentation" default="false" size="282" display="4" hasComponents="true"/>
+                <Feature name="UserEditableDataFiles" title="Server data files" description="Server data files" default="true" size="0" display="6" hasComponents="true"/>
+              </Package>
+              <Package type="MSI" arch="X86" filename="mysql-5.7.25-win32.msi" id="{8F3E27FE-797C-42BF-9C20-AAE8116DA73A}" version="5.7.25" upgradeCode="{F59F931A-0282-45D0-97CD-33F8B43AE3C2}" license="Community" maturity="GA" download="true" revoked="false">
+                <Feature name="RegKeys" default="true" size="0" display="0" hasComponents="true"/>
+                <Feature name="ALWAYSINSTALL" title="ALWAYSINSTALL" description="ALWAYSINSTALL" default="true" size="0" display="0" hasComponents="false">
+                  <Feature name="Readme" title="CPACK_COMPONENT_README_DISPLAY_NAME" description="CPACK_COMPONENT_README_DESCRIPTION" default="true" size="20465" display="2" hasComponents="true"/>
+                </Feature>
+                <Feature name="MISC" title="MISC" description="MISC" default="true" size="0" display="0" hasComponents="false">
+                  <Feature name="Server_Scripts" title="CPACK_COMPONENT_SERVER_SCRIPTS_DISPLAY_NAME" description="CPACK_COMPONENT_SERVER_SCRIPTS_DESCRIPTION" default="true" size="35697" display="2" hasComponents="true"/>
+                </Feature>
+                <Feature name="ProgramMenu" default="true" size="0" display="0" hasComponents="true"/>
+                <Feature name="MYSQLSERVER" title="MySQL Server" description="Install MySQL Server" default="true" size="194737583" display="1" hasComponents="true">
+                  <Feature name="Client" title="Client Programs" description="Various helpful (commandline) tools including the mysql command line client" default="true" size="94613504" display="2" hasComponents="true"/>
+                </Feature>
+                <Feature name="DEVEL" title="Development Components" description="Installs C/C++ header files and libraries" default="true" size="24957916" display="2" hasComponents="true">
+                  <Feature name="SharedLibraries" title="Client C API library (shared)" description="Installs shared client library" default="true" size="3889706" display="2" hasComponents="true"/>
+                </Feature>
+                <Feature name="DOCUMENTATION" title="Documentation" description="Installs documentation" default="false" size="282" display="4" hasComponents="true"/>
+                <Feature name="UserEditableDataFiles" title="Server data files" description="Server data files" default="true" size="0" display="6" hasComponents="true"/>
+              </Package>
+              <Package type="MSI" arch="X64" filename="mysql-advanced-5.7.25-winx64.msi" id="{6C22222A-5494-47ED-BBE1-443BA61244A1}" version="5.7.25" upgradeCode="{F59F931A-0282-45D0-97CD-33F8B43AE3C2}" license="Commercial" maturity="GA" download="true" revoked="false">
+                <Feature name="RegKeys" default="true" size="0" display="0" hasComponents="true"/>
+                <Feature name="ALWAYSINSTALL" title="ALWAYSINSTALL" description="ALWAYSINSTALL" default="true" size="0" display="0" hasComponents="false">
+                  <Feature name="Readme" title="CPACK_COMPONENT_README_DISPLAY_NAME" description="CPACK_COMPONENT_README_DESCRIPTION" default="true" size="4178" display="2" hasComponents="true"/>
+                </Feature>
+                <Feature name="MISC" title="MISC" description="MISC" default="true" size="0" display="0" hasComponents="false">
+                  <Feature name="Server_Scripts" title="CPACK_COMPONENT_SERVER_SCRIPTS_DISPLAY_NAME" description="CPACK_COMPONENT_SERVER_SCRIPTS_DESCRIPTION" default="true" size="42584" display="2" hasComponents="true"/>
+                </Feature>
+                <Feature name="ProgramMenu" default="true" size="0" display="0" hasComponents="true"/>
+                <Feature name="MYSQLSERVER" title="MySQL Server" description="Install MySQL Server" default="true" size="234260969" display="1" hasComponents="true">
+                  <Feature name="Client" title="Client Programs" description="Various helpful (commandline) tools including the mysql command line client" default="true" size="134838272" display="2" hasComponents="true"/>
+                </Feature>
+                <Feature name="DEVEL" title="Development Components" description="Installs C/C++ header files and libraries" default="true" size="46935570" display="2" hasComponents="true">
+                  <Feature name="SharedLibraries" title="Client C API library (shared)" description="Installs shared client library" default="true" size="5797196" display="2" hasComponents="true"/>
+                </Feature>
+                <Feature name="DOCUMENTATION" title="Documentation" description="Installs documentation" default="false" size="282" display="4" hasComponents="true"/>
+                <Feature name="UserEditableDataFiles" title="Server data files" description="Server data files" default="true" size="0" display="6" hasComponents="true"/>
+              </Package>
+              <Package type="MSI" arch="X86" filename="mysql-advanced-5.7.25-win32.msi" id="{BA58C753-DFA0-45C4-AA24-817D9AE58244}" version="5.7.25" upgradeCode="{F59F931A-0282-45D0-97CD-33F8B43AE3C2}" license="Commercial" maturity="GA" download="true" revoked="false">
+                <Feature name="RegKeys" default="true" size="0" display="0" hasComponents="true"/>
+                <Feature name="ALWAYSINSTALL" title="ALWAYSINSTALL" description="ALWAYSINSTALL" default="true" size="0" display="0" hasComponents="false">
+                  <Feature name="Readme" title="CPACK_COMPONENT_README_DISPLAY_NAME" description="CPACK_COMPONENT_README_DESCRIPTION" default="true" size="4178" display="2" hasComponents="true"/>
+                </Feature>
+                <Feature name="MISC" title="MISC" description="MISC" default="true" size="0" display="0" hasComponents="false">
+                  <Feature name="Server_Scripts" title="CPACK_COMPONENT_SERVER_SCRIPTS_DISPLAY_NAME" description="CPACK_COMPONENT_SERVER_SCRIPTS_DESCRIPTION" default="true" size="42674" display="2" hasComponents="true"/>
+                </Feature>
+                <Feature name="ProgramMenu" default="true" size="0" display="0" hasComponents="true"/>
+                <Feature name="MYSQLSERVER" title="MySQL Server" description="Install MySQL Server" default="true" size="220455913" display="1" hasComponents="true">
+                  <Feature name="Client" title="Client Programs" description="Various helpful (commandline) tools including the mysql command line client" default="true" size="117229056" display="2" hasComponents="true"/>
+                </Feature>
+                <Feature name="DEVEL" title="Development Components" description="Installs C/C++ header files and libraries" default="true" size="45585891" display="2" hasComponents="true">
+                  <Feature name="SharedLibraries" title="Client C API library (shared)" description="Installs shared client library" default="true" size="5083690" display="2" hasComponents="true"/>
+                </Feature>
+                <Feature name="DOCUMENTATION" title="Documentation" description="Installs documentation" default="false" size="282" display="4" hasComponents="true"/>
+                <Feature name="UserEditableDataFiles" title="Server data files" description="Server data files" default="true" size="0" display="6" hasComponents="true"/>
+              </Package>
+          </ProductSeries>
+          <ProductSeries name="MySQL Server 8.0" cdnUrl="http://cdn.mysql.com/Downloads/MySQL-8.0/[file]" mosUrl="https://updates.oracle.com/Orion/Services/download/[archive]?aru=[number]&amp;patch_file=[archive]" archiveUrl="http://cdn.mysql.com/archives/mysql-8.0/[file]" relatedVersion="8.0" >
+              <Package type="MSI" arch="X64" filename="mysql-8.0.14-winx64.msi" id="{501EBAC1-FA27-4B8F-96E9-1EABA0AE6492}" version="8.0.14" upgradeCode="{D1DA7A5D-E358-40A5-8DB0-94B563487A74}" license="Community" maturity="GA" download="true" revoked="false">
+                <Feature name="RegKeys" default="true" size="0" display="0" hasComponents="true"/>
+                <Feature name="ALWAYSINSTALL" title="ALWAYSINSTALL" description="ALWAYSINSTALL" default="true" size="0" display="0" hasComponents="false">
+                  <Feature name="Readme" title="CPACK_COMPONENT_README_DISPLAY_NAME" description="CPACK_COMPONENT_README_DESCRIPTION" default="true" size="336499" display="2" hasComponents="true"/>
+                  <Feature name="Router" title="CPACK_COMPONENT_ROUTER_DISPLAY_NAME" description="CPACK_COMPONENT_ROUTER_DESCRIPTION" default="true" size="39687927" display="4" hasComponents="true"/>
+                </Feature>
+                <Feature name="MISC" title="MISC" description="MISC" default="true" size="0" display="0" hasComponents="false">
+                  <Feature name="Server_Scripts" title="CPACK_COMPONENT_SERVER_SCRIPTS_DISPLAY_NAME" description="CPACK_COMPONENT_SERVER_SCRIPTS_DESCRIPTION" default="true" size="36615" display="2" hasComponents="true"/>
+                </Feature>
+                <Feature name="ProgramMenu" default="true" size="0" display="0" hasComponents="true"/>
+                <Feature name="MYSQLSERVER" title="MySQL Server" description="Install MySQL Server" default="true" size="223263958" display="1" hasComponents="true">
+                  <Feature name="Client" title="Client Programs" description="Various helpful (commandline) tools including the mysql command line client" default="true" size="99761152" display="2" hasComponents="true"/>
+                </Feature>
+                <Feature name="DEVEL" title="Development Components" description="Installs C/C++ header files and libraries" default="true" size="59953005" display="2" hasComponents="true">
+                  <Feature name="SharedLibraries" title="Client C API library (shared)" description="Installs shared client library" default="true" size="7645858" display="2" hasComponents="true"/>
+                </Feature>
+                <Feature name="DOCUMENTATION" title="Documentation" description="Installs documentation" default="false" size="206" display="4" hasComponents="true"/>
+                <Feature name="UserEditableDataFiles" title="Server data files" description="Server data files" default="true" size="0" display="6" hasComponents="true"/>
+              </Package>
+              <Package type="MSI" arch="X64" filename="mysql-commercial-8.0.14-winx64.msi" id="{BAA5D3A6-1CD9-4BA9-BFF4-101587E57D01}" version="8.0.14" upgradeCode="{D1DA7A5D-E358-40A5-8DB0-94B563487A74}" license="Commercial" maturity="GA" download="true" revoked="false">
+                <Feature name="RegKeys" default="true" size="0" display="0" hasComponents="true"/>
+                <Feature name="ALWAYSINSTALL" title="ALWAYSINSTALL" description="ALWAYSINSTALL" default="true" size="0" display="0" hasComponents="false">
+                  <Feature name="Readme" title="CPACK_COMPONENT_README_DISPLAY_NAME" description="CPACK_COMPONENT_README_DESCRIPTION" default="true" size="358628" display="2" hasComponents="true"/>
+                  <Feature name="Meb" title="CPACK_COMPONENT_MEB_DISPLAY_NAME" description="CPACK_COMPONENT_MEB_DESCRIPTION" default="true" size="8592896" display="4" hasComponents="true"/>
+                  <Feature name="MebReadme" title="CPACK_COMPONENT_MEBREADME_DISPLAY_NAME" description="CPACK_COMPONENT_MEBREADME_DESCRIPTION" default="true" size="149402" display="6" hasComponents="true"/>
+                  <Feature name="Router" title="CPACK_COMPONENT_ROUTER_DISPLAY_NAME" description="CPACK_COMPONENT_ROUTER_DESCRIPTION" default="true" size="39685593" display="8" hasComponents="true"/>
+                </Feature>
+                <Feature name="MISC" title="MISC" description="MISC" default="true" size="0" display="0" hasComponents="false">
+                  <Feature name="Server_Scripts" title="CPACK_COMPONENT_SERVER_SCRIPTS_DISPLAY_NAME" description="CPACK_COMPONENT_SERVER_SCRIPTS_DESCRIPTION" default="true" size="42015" display="2" hasComponents="true"/>
+                </Feature>
+                <Feature name="ProgramMenu" default="true" size="0" display="0" hasComponents="true"/>
+                <Feature name="MYSQLSERVER" title="MySQL Server" description="Install MySQL Server" default="true" size="226342489" display="1" hasComponents="true">
+                  <Feature name="Client" title="Client Programs" description="Various helpful (commandline) tools including the mysql command line client" default="true" size="99762688" display="2" hasComponents="true"/>
+                </Feature>
+                <Feature name="DEVEL" title="Development Components" description="Installs C/C++ header files and libraries" default="true" size="59946064" display="2" hasComponents="true">
+                  <Feature name="SharedLibraries" title="Client C API library (shared)" description="Installs shared client library" default="true" size="7645858" display="2" hasComponents="true"/>
+                </Feature>
+                <Feature name="DOCUMENTATION" title="Documentation" description="Installs documentation" default="false" size="206" display="4" hasComponents="true"/>
+                <Feature name="UserEditableDataFiles" title="Server data files" description="Server data files" default="true" size="0" display="6" hasComponents="true"/>
+              </Package>
+          </ProductSeries>
+      </Product>
+    </ProductCategory>
+    <ProductCategory type="Application" description="Applications that work with MySQL" title="Applications" >
+      <Product name="meb" title="MySQL Enterprise Backup" homeUrl="http://dev.mysql.com/doc/index-enterprise.html" cdnUrl="" mosUrl="" archiveUrl="" changesUrlTemplate="http://dev.mysql.com/doc/mysql-enterprise-backup/[major].[minor]/en/meb-news-[major]-[minor]-[revision].html" upgradeType="Series" setupTypeFlags="5">
+          <ProductSeries name="MySQL Enterprise Backup 8.0" mosUrl="https://updates.oracle.com/Orion/Services/download/[archive]?aru=[number]&amp;patch_file=[archive]" relatedVersion="8.0" >
+              <Package type="MSI" arch="X64" filename="mysql-commercial-backup-8.0.14-winx64.msi" id="{770342DF-69F4-486A-9B74-9B1D3490A404}" version="8.0.14" upgradeCode="{ACB2D23C-F05A-4D86-9417-FD92A1365D3C}" license="Commercial" maturity="GA" serverMax="8.0.999" serverMin="8.0.0" download="true" revoked="false">
+                <Feature name="ALWAYSINSTALL" title="ALWAYSINSTALL" description="ALWAYSINSTALL" default="true" size="0" display="0" hasComponents="false">
+                  <Feature name="Meb" title="CPACK_COMPONENT_MEB_DISPLAY_NAME" description="CPACK_COMPONENT_MEB_DESCRIPTION" default="true" size="8592896" display="2" hasComponents="true"/>
+                  <Feature name="MebReadme" title="CPACK_COMPONENT_MEBREADME_DISPLAY_NAME" description="CPACK_COMPONENT_MEBREADME_DESCRIPTION" default="true" size="149402" display="4" hasComponents="true"/>
+                  <Feature name="SharedLibraries" title="CPACK_COMPONENT_SHAREDLIBRARIES_DISPLAY_NAME" description="CPACK_COMPONENT_SHAREDLIBRARIES_DESCRIPTION" default="true" size="7645858" display="6" hasComponents="true"/>
+                </Feature>
+                <Feature name="MEBPRODUCTMENU" title="MySQL Enterprise Backup Product Menu" default="true" size="0" display="2" hasComponents="true"/>
+              </Package>
+          </ProductSeries>
+      </Product>
+      <Product name="mysql-router" title="MySQL Router" homeUrl="http://dev.mysql.com/downloads/router/ " cdnUrl="http://cdn.mysql.com/Downloads/MySQL-Router/[file]" mosUrl="" archiveUrl="" changesUrlTemplate="http://dev.mysql.com/doc/relnotes/mysql-router/en/mysql-router-news-[major]-[minor]-[revision].html" upgradeType="Product" setupTypeFlags="5">
+          <ProductSeries name="MySQL Router 8.0" cdnUrl="http://cdn.mysql.com/Downloads/MySQL-Router/[file]" mosUrl="https://updates.oracle.com/Orion/Services/download/[archive]?aru=[number]&amp;patch_file=[archive]" archiveUrl="http://cdn.mysql.com/archives/mysql-router/[file]" relatedVersion="8.0" >
+              <Package type="MSI" arch="X64" filename="mysql-router-commercial-8.0.14-winx64.msi" id="{2C11781A-54C2-4D85-92E2-8612A7603022}" version="8.0.14" upgradeCode="{9FC37322-7617-4205-B7BD-F72C30EF101A}" license="Commercial" maturity="GA" serverMax="8.0.999" serverMin="5.7.0" download="true" revoked="false">
+                <Feature name="RegKeys" default="true" size="0" display="0" hasComponents="true"/>
+                <Feature name="ALWAYSINSTALL" title="ALWAYSINSTALL" description="ALWAYSINSTALL" default="true" size="0" display="0" hasComponents="false">
+                  <Feature name="SharedLibraries" title="CPACK_COMPONENT_SHAREDLIBRARIES_DISPLAY_NAME" description="CPACK_COMPONENT_SHAREDLIBRARIES_DESCRIPTION" default="true" size="7645858" display="2" hasComponents="true"/>
+                </Feature>
+                <Feature name="ROUTER" title="MySQL Router" description="Install MySQL Router" default="true" size="39685593" display="2" hasComponents="true"/>
+              </Package>
+              <Package type="MSI" arch="X64" filename="mysql-router-8.0.14-winx64.msi" id="{194F205D-9AE3-48EB-9B3B-7A796A7DC346}" version="8.0.14" upgradeCode="{9FC37322-7617-4205-B7BD-F72C30EF101A}" license="Community" maturity="GA" serverMax="8.0.999" serverMin="5.7.0" download="true" revoked="false">
+                <Feature name="RegKeys" default="true" size="0" display="0" hasComponents="true"/>
+                <Feature name="ALWAYSINSTALL" title="ALWAYSINSTALL" description="ALWAYSINSTALL" default="true" size="0" display="0" hasComponents="false">
+                  <Feature name="SharedLibraries" title="CPACK_COMPONENT_SHAREDLIBRARIES_DISPLAY_NAME" description="CPACK_COMPONENT_SHAREDLIBRARIES_DESCRIPTION" default="true" size="7645858" display="2" hasComponents="true"/>
+                </Feature>
+                <Feature name="ROUTER" title="MySQL Router" description="Install MySQL Router" default="true" size="39687927" display="2" hasComponents="true"/>
+              </Package>
+          </ProductSeries>
+      </Product>
+    </ProductCategory>
+    <ProductCategory type="Documentation" description="" title="Documentation" >
+      <Product name="documents" title="MySQL Documentation" homeUrl="http://dev.mysql.com/downloads/windows/installer/" cdnUrl="http://cdn.mysql.com/Downloads/MySQLInstaller/[file]" mosUrl="" archiveUrl="" changesUrlTemplate="" upgradeType="Series" setupTypeFlags="1">
+          <ProductSeries name="MySQL Documentation 5.6" cdnUrl="http://cdn.mysql.com/Downloads/MySQLInstaller/[file]" mosUrl="https://updates.oracle.com/Orion/Services/download/[archive]?aru=[number]&amp;patch_file=[archive]" archiveUrl="http://cdn.mysql.com/archives/mysqlinstaller/[file]" relatedVersion="5.6" >
+              <Package type="MSI" arch="X86" filename="mysql-advanced-documents-5.6.43.msi" id="{96D09F9A-CE02-46D1-B070-CE12FAFB61A8}" version="5.6.43" upgradeCode="{5DB21BFD-1E70-46A1-8415-166001D29DC5}" license="Commercial" maturity="GA" download="true" revoked="false">
+                <Feature name="ServerA4Feature" title="Server A4 Manual" default="true" size="32978660" display="2" hasComponents="true"/>
+                <Feature name="ServerFeature" title="Server Manual" default="true" size="32936999" display="4" hasComponents="true"/>
+              </Package>
+              <Package type="MSI" arch="X86" filename="mysql-documents-5.6.43.msi" id="{166BDE38-561C-4971-BF5D-5DD64BE25736}" version="5.6.43" upgradeCode="{D884632C-A8F2-46E6-9944-F784F5C6A10A}" license="Community" maturity="GA" download="true" revoked="false">
+                <Feature name="ServerA4Feature" title="Server A4 Manual" default="true" size="32978660" display="2" hasComponents="true"/>
+                <Feature name="ServerFeature" title="Server Manual" default="true" size="32936999" display="4" hasComponents="true"/>
+              </Package>
+          </ProductSeries>
+          <ProductSeries name="MySQL Documentation 5.7" cdnUrl="http://cdn.mysql.com/Downloads/MySQLInstaller/[file]" mosUrl="https://updates.oracle.com/Orion/Services/download/[archive]?aru=[number]&amp;patch_file=[archive]" archiveUrl="http://cdn.mysql.com/archives/mysqlinstaller/[file]" relatedVersion="5.7" >
+              <Package type="MSI" arch="X86" filename="mysql-advanced-documents-5.7.25.msi" id="{0181BFBA-C523-4613-B002-B6D048D08E22}" version="5.7.25" upgradeCode="{5DB21BFD-1E70-46A1-8415-166001D29DC5}" license="Commercial" maturity="GA" download="true" revoked="false">
+                <Feature name="ServerA4Feature" title="Server A4 Manual" default="true" size="41347633" display="2" hasComponents="true"/>
+                <Feature name="ServerFeature" title="Server Manual" default="true" size="41309356" display="4" hasComponents="true"/>
+              </Package>
+              <Package type="MSI" arch="X86" filename="mysql-documents-5.7.25.msi" id="{1AAE0F44-94DA-4898-83C1-21EEA66477FF}" version="5.7.25" upgradeCode="{D884632C-A8F2-46E6-9944-F784F5C6A10A}" license="Community" maturity="GA" download="true" revoked="false">
+                <Feature name="ServerA4Feature" title="Server A4 Manual" default="true" size="41347633" display="2" hasComponents="true"/>
+                <Feature name="ServerFeature" title="Server Manual" default="true" size="41309356" display="4" hasComponents="true"/>
+              </Package>
+          </ProductSeries>
+          <ProductSeries name="MySQL Documentation 8.0" cdnUrl="http://cdn.mysql.com/Downloads/MySQLInstaller/[file]" mosUrl="https://updates.oracle.com/Orion/Services/download/[archive]?aru=[number]&amp;patch_file=[archive]" archiveUrl="http://cdn.mysql.com/archives/mysqlinstaller/[file]" relatedVersion="8.0" >
+              <Package type="MSI" arch="X86" filename="mysql-documents-8.0.14.msi" id="{2A930A0A-A711-4873-864C-96CD35649EBD}" version="8.0.14" upgradeCode="{D884632C-A8F2-46E6-9944-F784F5C6A10A}" license="Community" maturity="GA" download="true" revoked="false">
+                <Feature name="ServerA4Feature" title="Server A4 Manual" default="true" size="46943526" display="2" hasComponents="true"/>
+                <Feature name="ServerFeature" title="Server Manual" default="true" size="46877706" display="4" hasComponents="true"/>
+              </Package>
+              <Package type="MSI" arch="X86" filename="mysql-commercial-documents-8.0.14.msi" id="{96521566-EADA-4684-A593-5C56BB4A9F16}" version="8.0.14" upgradeCode="{5DB21BFD-1E70-46A1-8415-166001D29DC5}" license="Commercial" maturity="GA" download="true" revoked="false">
+                <Feature name="ServerA4Feature" title="Server A4 Manual" default="true" size="46943526" display="2" hasComponents="true"/>
+                <Feature name="ServerFeature" title="Server Manual" default="true" size="46877706" display="4" hasComponents="true"/>
+              </Package>
+          </ProductSeries>
+      </Product>
+      <Product name="examples" title="Samples and Examples" homeUrl="http://dev.mysql.com/downloads/windows/installer/" cdnUrl="http://cdn.mysql.com/Downloads/MySQLInstaller/[file]" mosUrl="" archiveUrl="" changesUrlTemplate="" upgradeType="Series" setupTypeFlags="1">
+          <ProductSeries name="Samples and Examples 5.6" cdnUrl="http://cdn.mysql.com/Downloads/MySQLInstaller/[file]" mosUrl="https://updates.oracle.com/Orion/Services/download/[archive]?aru=[number]&amp;patch_file=[archive]" archiveUrl="http://cdn.mysql.com/archives/mysqlinstaller/[file]" relatedVersion="5.6" >
+              <Package type="MSI" arch="X86" filename="mysql-advanced-examples-5.6.43.msi" id="{BD427759-A2C4-4D54-94AF-412BBEF6CCAB}" version="5.6.43" upgradeCode="{FB978202-2AA2-4E65-85AC-A7ECC3EF5D4A}" license="Commercial" maturity="GA" download="true" revoked="false">
+                <Feature name="SampleDB" title="Sample Databases" default="true" size="3868848" display="2" hasComponents="true"/>
+              </Package>
+              <Package type="MSI" arch="X86" filename="mysql-examples-5.6.43.msi" id="{E586CE7A-1A2E-41FC-843F-E6F53DCE6737}" version="5.6.43" upgradeCode="{7DA422F9-2FB6-49CD-B973-1FF087FF180F}" license="Community" maturity="GA" download="true" revoked="false">
+                <Feature name="SampleDB" title="Sample Databases" default="true" size="3868848" display="2" hasComponents="true"/>
+              </Package>
+          </ProductSeries>
+          <ProductSeries name="Samples and Examples 5.7" cdnUrl="http://cdn.mysql.com/Downloads/MySQLInstaller/[file]" mosUrl="https://updates.oracle.com/Orion/Services/download/[archive]?aru=[number]&amp;patch_file=[archive]" archiveUrl="http://cdn.mysql.com/archives/mysqlinstaller/[file]" relatedVersion="5.7" >
+              <Package type="MSI" arch="X86" filename="mysql-advanced-examples-5.7.25.msi" id="{5BDDD4D8-66DE-49D3-96D3-16EF2F3EB031}" version="5.7.25" upgradeCode="{FB978202-2AA2-4E65-85AC-A7ECC3EF5D4A}" license="Commercial" maturity="GA" download="true" revoked="false">
+                <Feature name="SampleDB" title="Sample Databases" default="true" size="3868848" display="2" hasComponents="true"/>
+              </Package>
+              <Package type="MSI" arch="X86" filename="mysql-examples-5.7.25.msi" id="{CBC30C29-BD2A-404E-A148-B2D5EC98F2C1}" version="5.7.25" upgradeCode="{7DA422F9-2FB6-49CD-B973-1FF087FF180F}" license="Community" maturity="GA" download="true" revoked="false">
+                <Feature name="SampleDB" title="Sample Databases" default="true" size="3868848" display="2" hasComponents="true"/>
+              </Package>
+          </ProductSeries>
+          <ProductSeries name="Samples and Examples 8.0" cdnUrl="http://cdn.mysql.com/Downloads/MySQLInstaller/[file]" mosUrl="https://updates.oracle.com/Orion/Services/download/[archive]?aru=[number]&amp;patch_file=[archive]" archiveUrl="http://cdn.mysql.com/archives/mysqlinstaller/[file]" relatedVersion="8.0" >
+              <Package type="MSI" arch="X86" filename="mysql-commercial-examples-8.0.14.msi" id="{E2F18024-A2A8-40A8-BF58-826B4ADFBDA5}" version="8.0.14" upgradeCode="{FB978202-2AA2-4E65-85AC-A7ECC3EF5D4A}" license="Commercial" maturity="GA" download="true" revoked="false">
+                <Feature name="SampleDB" title="Sample Databases" default="true" size="3868848" display="2" hasComponents="true"/>
+              </Package>
+              <Package type="MSI" arch="X86" filename="mysql-examples-8.0.14.msi" id="{1C7FC06F-4F45-454B-8C50-DEBD861C74FC}" version="8.0.14" upgradeCode="{7DA422F9-2FB6-49CD-B973-1FF087FF180F}" license="Community" maturity="GA" download="true" revoked="false">
+                <Feature name="SampleDB" title="Sample Databases" default="true" size="3868848" display="2" hasComponents="true"/>
+              </Package>
+          </ProductSeries>
+      </Product>
+    </ProductCategory>
+  </ProductCategories>
+</ProductManifest>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Settings xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <LicenseAccepted>true</LicenseAccepted>
+  <SendSystemInfo>false</SendSystemInfo>
+  <Location>
+    <X>240</X>
+    <Y>40</Y>
+  </Location>
+  <FilterConfiguration OnlyLocal="false" Architecture="Any" Category="All Software" Age="Current Bundle" />
+  <LastCatalogCheck>2019-01-09 17:54:52Z</LastCatalogCheck>
+  <MOSDontAsk>false</MOSDontAsk>
+  <SchTaskDontAsk>false</SchTaskDontAsk>
+  <DailyUpdateTime>0</DailyUpdateTime>
+  <WarnOnImposters>true</WarnOnImposters>
+  <LastInstalledVersion>5.7.25</LastInstalledVersion>
+  <ProductCode>{725415E9-C934-41D2-B893-0AE3696CC9E7}</ProductCode>
+</Settings>

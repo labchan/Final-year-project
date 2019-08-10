@@ -1,0 +1,908 @@
+mysql-installer Information: 10 : Configuration file found.
+mysql-installer Information: 10 : Settings file found.
+mysql-installer Information: 10 : Loaded configuration.
+mysql-installer Information: 10 : Package - setting up controller
+mysql-installer Information: 10 : Loading controllers from C:\Program Files (x86)\MySQL\MySQL Installer for Windows\MySQLInstaller.Core.dll
+mysql-installer Information: 10 : Loading controllers from C:\Program Files (x86)\MySQL\MySQL Installer for Windows\StandardPlugins.dll
+mysql-installer Information: 10 : Creating configuration controller for: mysql-server.
+mysql-installer Information: 10 : Product configuration controller created.
+mysql-installer Information: 10 : Package - Initializing controller
+mysql-installer Information: 10 : Package - Installed - loading properties
+mysql-installer Information: 10 : Package - Load Properties - Loading msi properties
+mysql-installer Information: 10 : Package - Installed - Set Features states
+mysql-installer Information: 10 : Package - SetFeatureStates - setting states
+mysql-installer Information: 10 : Package - SetFeatureStates - setting feature RegKeys
+mysql-installer Information: 10 : Package - SetFeatureStates - setting features for feature RegKeys
+mysql-installer Information: 10 : Package - SetFeatureStates - setting feature ALWAYSINSTALL
+mysql-installer Information: 10 : Package - SetFeatureStates - setting features for feature ALWAYSINSTALL
+mysql-installer Information: 10 : Package - SetFeatureStates - setting feature Readme
+mysql-installer Information: 10 : Package - SetFeatureStates - setting features for feature Readme
+mysql-installer Information: 10 : Package - SetFeatureStates - setting feature MISC
+mysql-installer Information: 10 : Package - SetFeatureStates - setting features for feature MISC
+mysql-installer Information: 10 : Package - SetFeatureStates - setting feature Server_Scripts
+mysql-installer Information: 10 : Package - SetFeatureStates - setting features for feature Server_Scripts
+mysql-installer Information: 10 : Package - SetFeatureStates - setting feature ProgramMenu
+mysql-installer Information: 10 : Package - SetFeatureStates - setting features for feature ProgramMenu
+mysql-installer Information: 10 : Package - SetFeatureStates - setting feature MYSQLSERVER
+mysql-installer Information: 10 : Package - SetFeatureStates - setting features for feature MYSQLSERVER
+mysql-installer Information: 10 : Package - SetFeatureStates - setting feature Client
+mysql-installer Information: 10 : Package - SetFeatureStates - setting features for feature Client
+mysql-installer Information: 10 : Package - SetFeatureStates - setting feature DEVEL
+mysql-installer Information: 10 : Package - SetFeatureStates - setting features for feature DEVEL
+mysql-installer Information: 10 : Package - SetFeatureStates - setting feature SharedLibraries
+mysql-installer Information: 10 : Package - SetFeatureStates - setting features for feature SharedLibraries
+mysql-installer Information: 10 : Package - SetFeatureStates - setting feature DOCUMENTATION
+mysql-installer Information: 10 : Package - SetFeatureStates - setting features for feature DOCUMENTATION
+mysql-installer Information: 10 : Package - SetFeatureStates - setting feature UserEditableDataFiles
+mysql-installer Information: 10 : Package - SetFeatureStates - setting features for feature UserEditableDataFiles
+mysql-installer Information: 10 : Package - Installed - Finding upgrades
+mysql-installer Information: 10 : Package - FindUpgrades - series MySQL Server 5.7
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Server 5.7.25
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Server 5.7.25
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Server 5.7.25
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Server 5.7.25
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Server 5.7.24
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Server 5.7.24
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Server 5.7.24
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Server 5.7.24
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Server 5.7.23
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Server 5.7.23
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Server 5.7.23
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Server 5.7.23
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Server 5.7.22
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Server 5.7.22
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Server 5.7.22
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Server 5.7.22
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Server 5.7.21
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Server 5.7.21
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Server 5.7.21
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Server 5.7.21
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Server 5.7.20
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Server 5.7.20
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Server 5.7.20
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Server 5.7.20
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Server 5.7.19
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Server 5.7.19
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Server 5.7.19
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Server 5.7.19
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Server 5.7.18
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Server 5.7.18
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Server 5.7.18
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Server 5.7.18
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Server 5.7.17
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Server 5.7.17
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Server 5.7.17
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Server 5.7.17
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Server 5.7.16
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Server 5.7.16
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Server 5.7.16
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Server 5.7.16
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Server 5.7.15
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Server 5.7.15
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Server 5.7.15
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Server 5.7.15
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Server 5.7.14
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Server 5.7.14
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Server 5.7.14
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Server 5.7.14
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Server 5.7.13
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Server 5.7.13
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Server 5.7.13
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Server 5.7.13
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Server 5.7.12
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Server 5.7.12
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Server 5.7.12
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Server 5.7.12
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Server 5.7.11
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Server 5.7.11
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Server 5.7.11
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Server 5.7.11
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Server 5.7.10
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Server 5.7.10
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Server 5.7.10
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Server 5.7.10
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Server 5.7.9
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Server 5.7.9
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Server 5.7.9
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Server 5.7.9
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Server 5.7.8
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Server 5.7.8
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Server 5.7.8
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Server 5.7.8
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Server 5.7.7
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Server 5.7.7
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Server 5.7.7
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Server 5.7.7
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Server 5.7.6
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Server 5.7.6
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Server 5.7.5
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Server 5.7.5
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Server 5.7.4
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Server 5.7.4
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Server 5.7.3
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Server 5.7.3
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Server 5.7.2
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Server 5.7.2
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Server 5.7.1
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Server 5.7.1
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Server 5.7.1
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Server 5.7.1
+mysql-installer Information: 10 : Package - Installed - Loading controller state
+mysql-installer Information: 10 : Product Configuration Controller - Initializing controller
+mysql-installer Information: 10 : Product Configuration Controller - Loading Settings state
+mysql-installer Information: 10 : Controller Settings - Load State - Load Installed
+mysql-installer Information: 10 : Server Settings - Load Installed - calling base
+mysql-installer Information: 10 : Controller Settings - Load Installed - setting Install Dir from registry
+mysql-installer Information: 10 : Controller Settings - Load Installed - InstallDir C:\Program Files\MySQL\MySQL Server 5.7\
+mysql-installer Information: 10 : Server Settings - Load Installed - load service information
+mysql-installer Information: 10 : Server Settings - Load Installed - Load my Ini Settings
+mysql-installer Information: 10 : Server Settings - Load Ini Settings - find existing config file
+mysql-installer Information: 10 : Server Settings - Load Ini Settings - loading IniFileEngine
+mysql-installer Information: 10 : Server Settings - Load Ini Settings - IniTemplate Parsing
+mysql-installer Information: 10 : Server Settings - Load Ini Settings - getting settings from IniTemplate
+mysql-installer Information: 10 : Server Settings - Load Ini Settings - getting settings from IniFileEngine
+mysql-installer Error: 50 : Access to the path 'C:\ProgramData\MySQL\MySQL Server 5.7\installer_config.xml' is denied.
+Thrown by: Logger.LogException
+mysql-installer Information: 10 : Package - setting up controller
+mysql-installer Information: 10 : Package - Initializing controller
+mysql-installer Information: 10 : Product Configuration Controller - Init - Creating settings
+mysql-installer Information: 10 : Package - Installed - loading properties
+mysql-installer Information: 10 : Package - Load Properties - Loading msi properties
+mysql-installer Information: 10 : Package - Installed - Set Features states
+mysql-installer Information: 10 : Package - SetFeatureStates - setting states
+mysql-installer Information: 10 : Package - SetFeatureStates - setting feature MysqlWorkbenchCore
+mysql-installer Information: 10 : Package - SetFeatureStates - setting features for feature MysqlWorkbenchCore
+mysql-installer Information: 10 : Package - SetFeatureStates - setting feature WorkbenchProgramShortcut
+mysql-installer Information: 10 : Package - SetFeatureStates - setting features for feature WorkbenchProgramShortcut
+mysql-installer Information: 10 : Package - Installed - Finding upgrades
+mysql-installer Information: 10 : Package - FindUpgrades - series MySQL Workbench 8.0
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Workbench 8.0.14
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Workbench 8.0.14
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Workbench 8.0.13
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Workbench 8.0.13
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Workbench 8.0.12
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Workbench 8.0.12
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Workbench 8.0.11
+mysql-installer Information: 10 : Package - FindUpgrades - series MySQL Workbench 6.3
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Workbench 6.3.10
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Workbench 6.3.10
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Workbench 6.3.9
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Workbench 6.3.9
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Workbench 6.3.8
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Workbench 6.3.8
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Workbench 6.3.8
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Workbench 6.3.8
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Workbench 6.3.7
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Workbench 6.3.7
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Workbench 6.3.7
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Workbench 6.3.7
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Workbench 6.3.6
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Workbench 6.3.6
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Workbench 6.3.6
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Workbench 6.3.6
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Workbench 6.3.5
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Workbench 6.3.5
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Workbench 6.3.5
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Workbench 6.3.5
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Workbench 6.3.4
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Workbench 6.3.4
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Workbench 6.3.4
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Workbench 6.3.4
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Workbench 6.3.3
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Workbench 6.3.3
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Workbench 6.3.3
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Workbench 6.3.3
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Workbench 6.3.2
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Workbench 6.3.2
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Workbench 6.3.2
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Workbench 6.3.2
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Workbench 6.3.1
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Workbench 6.3.1
+mysql-installer Information: 10 : Package - FindUpgrades - series MySQL Workbench 6.2
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Workbench 6.2.5
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Workbench 6.2.5
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Workbench 6.2.5
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Workbench 6.2.5
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Workbench 6.2.4
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Workbench 6.2.4
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Workbench 6.2.4
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Workbench 6.2.4
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Workbench 6.2.3
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Workbench 6.2.3
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Workbench 6.2.3
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Workbench 6.2.3
+mysql-installer Information: 10 : Package - FindUpgrades - series MySQL Workbench 6.1
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Workbench 6.1.7
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Workbench 6.1.7
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Workbench 6.1.6
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Workbench 6.1.6
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Workbench 6.1.5
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Workbench 6.1.4
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Workbench 6.1.4
+mysql-installer Information: 10 : Package - FindUpgrades - series MySQL Workbench 6.0
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Workbench 6.0.9
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Workbench 6.0.9
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Workbench 6.0.8
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Workbench 6.0.8
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Workbench 6.0.7
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Workbench 6.0.7
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Workbench 6.0.6
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Workbench 6.0.6
+mysql-installer Information: 10 : Package - FindUpgrades - series MySQL Workbench 5.2
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Workbench 5.2.47
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Workbench 5.2.47
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Workbench 5.2.46
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Workbench 5.2.46
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Workbench 5.2.45
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Workbench 5.2.45
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Workbench 5.2.44
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Workbench 5.2.44
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Workbench 5.2.43
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Workbench 5.2.43
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Workbench 5.2.42
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Workbench 5.2.42
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Workbench 5.2.41
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Workbench 5.2.41
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Workbench 5.2.40
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Workbench 5.2.40
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Workbench 5.2.39
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Workbench 5.2.39
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Workbench 5.2.38
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Workbench 5.2.38
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Workbench 5.2.37
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Workbench 5.2.37
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Workbench 5.2.36
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Workbench 5.2.36
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Workbench 5.2.35.1
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Workbench 5.2.35
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Workbench 5.2.35
+mysql-installer Information: 10 : Package - Installed - Loading controller state
+mysql-installer Information: 10 : Product Configuration Controller - Initializing controller
+mysql-installer Information: 10 : Product Configuration Controller - Loading Settings state
+mysql-installer Information: 10 : Controller Settings - Load State - Load Installed
+mysql-installer Information: 10 : Controller Settings - Load Installed - setting Install Dir from registry
+mysql-installer Information: 10 : Controller Settings - Load Installed - InstallDir C:\Program Files\MySQL\MySQL Workbench 8.0 CE\
+mysql-installer Information: 10 : Package - setting up controller
+mysql-installer Information: 10 : Package - Initializing controller
+mysql-installer Information: 10 : Product Configuration Controller - Init - Creating settings
+mysql-installer Information: 10 : Package - Installed - loading properties
+mysql-installer Information: 10 : Package - Load Properties - Loading msi properties
+mysql-installer Information: 10 : Package - Installed - Set Features states
+mysql-installer Information: 10 : Package - SetFeatureStates - setting states
+mysql-installer Information: 10 : Package - SetFeatureStates - setting feature Complete
+mysql-installer Information: 10 : Package - SetFeatureStates - setting features for feature Complete
+mysql-installer Information: 10 : Package - Installed - Finding upgrades
+mysql-installer Information: 10 : Package - FindUpgrades - series MySQL Notifier 1.1
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Notifier 1.1.7
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Notifier 1.1.7
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Notifier 1.1.6
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Notifier 1.1.6
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Notifier 1.1.5
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Notifier 1.1.5
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Notifier 1.1.4
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Notifier 1.1.4
+mysql-installer Information: 10 : Package - FindUpgrades - series MySQL Notifier 1.0
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Notifier 1.0.3
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Notifier 1.0.3
+mysql-installer Information: 10 : Package - Installed - Loading controller state
+mysql-installer Information: 10 : Product Configuration Controller - Initializing controller
+mysql-installer Information: 10 : Product Configuration Controller - Loading Settings state
+mysql-installer Information: 10 : Controller Settings - Load State - Load Installed
+mysql-installer Information: 10 : Controller Settings - Load Installed - setting Install Dir from registry
+mysql-installer Information: 10 : Controller Settings - Load Installed - InstallDir 
+mysql-installer Information: 10 : Package - setting up controller
+mysql-installer Information: 10 : Package - Initializing controller
+mysql-installer Information: 10 : Product Configuration Controller - Init - Creating settings
+mysql-installer Information: 10 : Package - Installed - loading properties
+mysql-installer Information: 10 : Package - Load Properties - Loading msi properties
+mysql-installer Information: 10 : Package - Installed - Set Features states
+mysql-installer Information: 10 : Package - SetFeatureStates - setting states
+mysql-installer Information: 10 : Package - SetFeatureStates - setting feature ProductFeature
+mysql-installer Information: 10 : Package - SetFeatureStates - setting features for feature ProductFeature
+mysql-installer Information: 10 : Package - SetFeatureStates - setting feature CM_C_main
+mysql-installer Information: 10 : Package - SetFeatureStates - setting features for feature CM_C_main
+mysql-installer Information: 10 : Package - Installed - Finding upgrades
+mysql-installer Information: 10 : Package - FindUpgrades - series MySQL Shell 8.0
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Shell 8.0.14
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Shell 8.0.14
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Shell 8.0.13
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Shell 8.0.13
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Shell 8.0.12
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Shell 8.0.12
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Shell 8.0.11
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Shell 8.0.11
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Shell 8.0.4
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Shell 8.0.3
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Shell 8.0.0
+mysql-installer Information: 10 : Package - FindUpgrades - series MySQL Shell 1.0
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Shell 1.0.11
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Shell 1.0.11
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Shell 1.0.11
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Shell 1.0.11
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Shell 1.0.10
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Shell 1.0.10
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Shell 1.0.10
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Shell 1.0.10
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Shell 1.0.9
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Shell 1.0.9
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Shell 1.0.9
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Shell 1.0.9
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Shell 1.0.5
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Shell 1.0.5
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Shell 1.0.4
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Shell 1.0.3
+mysql-installer Information: 10 : Package - Installed - Loading controller state
+mysql-installer Information: 10 : Product Configuration Controller - Initializing controller
+mysql-installer Information: 10 : Product Configuration Controller - Loading Settings state
+mysql-installer Information: 10 : Controller Settings - Load State - Load Installed
+mysql-installer Information: 10 : Controller Settings - Load Installed - setting Install Dir from registry
+mysql-installer Information: 10 : Controller Settings - Load Installed - InstallDir 
+mysql-installer Information: 10 : Package - setting up controller
+mysql-installer Information: 10 : Creating configuration controller for: mysql-router.
+mysql-installer Information: 10 : Router configuration controller created.
+mysql-installer Information: 10 : Package - Initializing controller
+mysql-installer Information: 10 : Product Configuration Controller - Init - Creating settings
+mysql-installer Information: 10 : Package - Installed - loading properties
+mysql-installer Information: 10 : Package - Load Properties - Loading msi properties
+mysql-installer Information: 10 : Package - Installed - Set Features states
+mysql-installer Information: 10 : Package - SetFeatureStates - setting states
+mysql-installer Information: 10 : Package - SetFeatureStates - setting feature RegKeys
+mysql-installer Information: 10 : Package - SetFeatureStates - setting features for feature RegKeys
+mysql-installer Information: 10 : Package - SetFeatureStates - setting feature ALWAYSINSTALL
+mysql-installer Information: 10 : Package - SetFeatureStates - setting features for feature ALWAYSINSTALL
+mysql-installer Information: 10 : Package - SetFeatureStates - setting feature SharedLibraries
+mysql-installer Information: 10 : Package - SetFeatureStates - setting features for feature SharedLibraries
+mysql-installer Information: 10 : Package - SetFeatureStates - setting feature ROUTER
+mysql-installer Information: 10 : Package - SetFeatureStates - setting features for feature ROUTER
+mysql-installer Information: 10 : Package - Installed - Finding upgrades
+mysql-installer Information: 10 : Package - FindUpgrades - series MySQL Router 8.0
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Router 8.0.14
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Router 8.0.14
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Router 8.0.13
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Router 8.0.13
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Router 8.0.12
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Router 8.0.12
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Router 8.0.11
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Router 8.0.11
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Router 8.0.4
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Router 8.0.3
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Router 8.0.3
+mysql-installer Information: 10 : Package - FindUpgrades - series MySQL Router 2.1
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Router 2.1.6
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Router 2.1.6
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Router 2.1.6
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Router 2.1.6
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Router 2.1.5
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Router 2.1.5
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Router 2.1.5
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Router 2.1.5
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Router 2.1.4
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Router 2.1.4
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Router 2.1.4
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Router 2.1.4
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Router 2.1.3
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Router 2.1.3
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Router 2.1.3
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Router 2.1.3
+mysql-installer Information: 10 : Package - Installed - Loading controller state
+mysql-installer Information: 10 : Product Configuration Controller - Initializing controller
+mysql-installer Information: 10 : Product Configuration Controller - Loading Settings state
+mysql-installer Information: 10 : Controller Settings - Load State - Load Installed
+mysql-installer Information: 10 : Router Settings - Load Installed - Calling base
+mysql-installer Information: 10 : Controller Settings - Load Installed - setting Install Dir from registry
+mysql-installer Information: 10 : Controller Settings - Load Installed - InstallDir C:\Program Files\MySQL\MySQL Router 8.0\
+mysql-installer Information: 10 : Router Settings - Load Installed - Load configuration file settings
+mysql-installer Information: 10 : Router Settings - Load Configuration File Settings - Loading default settings
+mysql-installer Information: 10 : Router Settings - Load Defaults - Setting initial configuration values
+mysql-installer Information: 10 : Package - setting up controller
+mysql-installer Information: 10 : Package - Initializing controller
+mysql-installer Information: 10 : Product Configuration Controller - Init - Creating settings
+mysql-installer Information: 10 : Package - Installed - loading properties
+mysql-installer Information: 10 : Package - Load Properties - Loading msi properties
+mysql-installer Information: 10 : Package - Installed - Set Features states
+mysql-installer Information: 10 : Package - SetFeatureStates - setting states
+mysql-installer Information: 10 : Package - SetFeatureStates - setting feature ODBC
+mysql-installer Information: 10 : Package - SetFeatureStates - setting features for feature ODBC
+mysql-installer Information: 10 : Package - Installed - Finding upgrades
+mysql-installer Information: 10 : Package - FindUpgrades - series Connector/ODBC 8.0
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/ODBC 8.0.14
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/ODBC 8.0.14
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/ODBC 8.0.14
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/ODBC 8.0.14
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/ODBC 8.0.13
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/ODBC 8.0.13
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/ODBC 8.0.13
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/ODBC 8.0.13
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/ODBC 8.0.12
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/ODBC 8.0.12
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/ODBC 8.0.12
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/ODBC 8.0.12
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/ODBC 8.0.11
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/ODBC 8.0.11
+mysql-installer Information: 10 : Package - FindUpgrades - series Connector/ODBC 5.3
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/ODBC 5.3.11
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/ODBC 5.3.11
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/ODBC 5.3.11
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/ODBC 5.3.11
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/ODBC 5.3.10
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/ODBC 5.3.10
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/ODBC 5.3.10
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/ODBC 5.3.10
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/ODBC 5.3.9
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/ODBC 5.3.9
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/ODBC 5.3.9
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/ODBC 5.3.9
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/ODBC 5.3.8
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/ODBC 5.3.8
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/ODBC 5.3.8
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/ODBC 5.3.8
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/ODBC 5.3.7
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/ODBC 5.3.7
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/ODBC 5.3.7
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/ODBC 5.3.7
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/ODBC 5.3.6
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/ODBC 5.3.6
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/ODBC 5.3.6
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/ODBC 5.3.6
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/ODBC 5.3.5
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/ODBC 5.3.5
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/ODBC 5.3.4
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/ODBC 5.3.4
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/ODBC 5.3.4
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/ODBC 5.3.4
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/ODBC 5.3.3
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/ODBC 5.3.3
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/ODBC 5.3.2
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/ODBC 5.3.2
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/ODBC 5.3.2
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/ODBC 5.3.2
+mysql-installer Information: 10 : Package - FindUpgrades - series Connector/ODBC 5.2
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/ODBC 5.2.8
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/ODBC 5.2.8
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/ODBC 5.2.6
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/ODBC 5.2.6
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/ODBC 5.2.6
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/ODBC 5.2.6
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/ODBC 5.2.5
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/ODBC 5.2.5
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/ODBC 5.2.5
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/ODBC 5.2.5
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/ODBC 5.2.4
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/ODBC 5.2.4
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/ODBC 5.2.4
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/ODBC 5.2.4
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/ODBC 5.2.3
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/ODBC 5.2.3
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/ODBC 5.2.3
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/ODBC 5.2.3
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/ODBC 5.2.2
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/ODBC 5.2.2
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/ODBC 5.2.2
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/ODBC 5.2.2
+mysql-installer Information: 10 : Package - FindUpgrades - series Connector/ODBC 5.1
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/ODBC 5.1.11
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/ODBC 5.1.11
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/ODBC 5.1.11
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/ODBC 5.1.11
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/ODBC 5.1.10
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/ODBC 5.1.10
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/ODBC 5.1.10
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/ODBC 5.1.10
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/ODBC 5.1.8
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/ODBC 5.1.8
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/ODBC 5.1.8
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/ODBC 5.1.8
+mysql-installer Information: 10 : Package - Installed - Loading controller state
+mysql-installer Information: 10 : Product Configuration Controller - Initializing controller
+mysql-installer Information: 10 : Product Configuration Controller - Loading Settings state
+mysql-installer Information: 10 : Controller Settings - Load State - Load Installed
+mysql-installer Information: 10 : Controller Settings - Load Installed - setting Install Dir from registry
+mysql-installer Information: 10 : Controller Settings - Load Installed - InstallDir 
+mysql-installer Information: 10 : Package - setting up controller
+mysql-installer Information: 10 : Package - Initializing controller
+mysql-installer Information: 10 : Product Configuration Controller - Init - Creating settings
+mysql-installer Information: 10 : Package - Installed - loading properties
+mysql-installer Information: 10 : Package - Load Properties - Loading msi properties
+mysql-installer Information: 10 : Package - Installed - Set Features states
+mysql-installer Information: 10 : Package - SetFeatureStates - setting states
+mysql-installer Information: 10 : Package - SetFeatureStates - setting feature ALWAYSINSTALL
+mysql-installer Information: 10 : Package - SetFeatureStates - setting features for feature ALWAYSINSTALL
+mysql-installer Information: 10 : Package - SetFeatureStates - setting feature Readme
+mysql-installer Information: 10 : Package - SetFeatureStates - setting features for feature Readme
+mysql-installer Information: 10 : Package - SetFeatureStates - setting feature XDEVAPI
+mysql-installer Information: 10 : Package - SetFeatureStates - setting features for feature XDEVAPI
+mysql-installer Information: 10 : Package - SetFeatureStates - setting feature XDevAPIDll
+mysql-installer Information: 10 : Package - SetFeatureStates - setting features for feature XDevAPIDll
+mysql-installer Information: 10 : Package - SetFeatureStates - setting feature XDevAPIDev
+mysql-installer Information: 10 : Package - SetFeatureStates - setting features for feature XDevAPIDev
+mysql-installer Information: 10 : Package - SetFeatureStates - setting feature JDBC
+mysql-installer Information: 10 : Package - SetFeatureStates - setting features for feature JDBC
+mysql-installer Information: 10 : Package - SetFeatureStates - setting feature JDBCDll
+mysql-installer Information: 10 : Package - SetFeatureStates - setting features for feature JDBCDll
+mysql-installer Information: 10 : Package - SetFeatureStates - setting feature JDBCDev
+mysql-installer Information: 10 : Package - SetFeatureStates - setting features for feature JDBCDev
+mysql-installer Information: 10 : Package - Installed - Finding upgrades
+mysql-installer Information: 10 : Package - FindUpgrades - series Connector/C++ 8.0
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/C++ 8.0.14
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/C++ 8.0.14
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/C++ 8.0.14
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/C++ 8.0.14
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/C++ 8.0.13
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/C++ 8.0.13
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/C++ 8.0.13
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/C++ 8.0.13
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/C++ 8.0.12
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/C++ 8.0.12
+mysql-installer Information: 10 : Package - FindUpgrades - series Connector/C++ 1.1
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/C++ 1.1.11
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/C++ 1.1.11
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/C++ 1.1.10
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/C++ 1.1.10
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/C++ 1.1.9
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/C++ 1.1.9
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/C++ 1.1.9
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/C++ 1.1.9
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/C++ 1.1.8
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/C++ 1.1.8
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/C++ 1.1.8
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/C++ 1.1.8
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/C++ 1.1.7
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/C++ 1.1.7
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/C++ 1.1.7
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/C++ 1.1.7
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/C++ 1.1.6
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/C++ 1.1.6
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/C++ 1.1.6
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/C++ 1.1.6
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/C++ 1.1.5
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/C++ 1.1.5
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/C++ 1.1.5
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/C++ 1.1.5
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/C++ 1.1.4
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/C++ 1.1.4
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/C++ 1.1.4
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/C++ 1.1.4
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/C++ 1.1.3
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/C++ 1.1.3
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/C++ 1.1.3
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/C++ 1.1.3
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/C++ 1.1.2
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/C++ 1.1.2
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/C++ 1.1.2
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/C++ 1.1.2
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/C++ 1.1.0
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/C++ 1.1.0
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/C++ 1.1.0
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/C++ 1.1.0
+mysql-installer Information: 10 : Package - Installed - Loading controller state
+mysql-installer Information: 10 : Product Configuration Controller - Initializing controller
+mysql-installer Information: 10 : Product Configuration Controller - Loading Settings state
+mysql-installer Information: 10 : Controller Settings - Load State - Load Installed
+mysql-installer Information: 10 : Controller Settings - Load Installed - setting Install Dir from registry
+mysql-installer Information: 10 : Controller Settings - Load Installed - InstallDir 
+mysql-installer Information: 10 : Package - setting up controller
+mysql-installer Information: 10 : Package - Initializing controller
+mysql-installer Information: 10 : Product Configuration Controller - Init - Creating settings
+mysql-installer Information: 10 : Package - Installed - loading properties
+mysql-installer Information: 10 : Package - Load Properties - Loading msi properties
+mysql-installer Information: 10 : Package - Installed - Set Features states
+mysql-installer Information: 10 : Package - SetFeatureStates - setting states
+mysql-installer Information: 10 : Package - SetFeatureStates - setting feature ProductFeature
+mysql-installer Information: 10 : Package - SetFeatureStates - setting features for feature ProductFeature
+mysql-installer Information: 10 : Package - Installed - Finding upgrades
+mysql-installer Information: 10 : Package - FindUpgrades - series Connector/J 8.0
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/J 8.0.14
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/J 8.0.14
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/J 8.0.13
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/J 8.0.13
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/J 8.0.12
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/J 8.0.12
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/J 8.0.11
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/J 8.0.11
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/J 8.0.9
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/J 8.0.8
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/J 8.0.7
+mysql-installer Information: 10 : Package - FindUpgrades - series Connector/J 6.0
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/J 6.0.6
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/J 6.0.5
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/J 6.0.4
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/J 6.0.3
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/J 6.0.2
+mysql-installer Information: 10 : Package - FindUpgrades - series Connector/J 5.1
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/J 5.1.47
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/J 5.1.47
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/J 5.1.46
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/J 5.1.46
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/J 5.1.45
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/J 5.1.45
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/J 5.1.44
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/J 5.1.44
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/J 5.1.43
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/J 5.1.43
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/J 5.1.42
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/J 5.1.42
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/J 5.1.41
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/J 5.1.41
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/J 5.1.40
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/J 5.1.40
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/J 5.1.39
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/J 5.1.39
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/J 5.1.38
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/J 5.1.38
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/J 5.1.37
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/J 5.1.37
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/J 5.1.36
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/J 5.1.36
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/J 5.1.35
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/J 5.1.35
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/J 5.1.34
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/J 5.1.34
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/J 5.1.33
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/J 5.1.33
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/J 5.1.32
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/J 5.1.32
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/J 5.1.31
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/J 5.1.31
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/J 5.1.30
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/J 5.1.30
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/J 5.1.29
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/J 5.1.29
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/J 5.1.27
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/J 5.1.27
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/J 5.1.27
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/J 5.1.27
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/J 5.1.26
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/J 5.1.26
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/J 5.1.25
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/J 5.1.25
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/J 5.1.24
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/J 5.1.24
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/J 5.1.23
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/J 5.1.23
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/J 5.1.20.0
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/J 5.1.20.0
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/J 5.1.19.0
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/J 5.1.19.0
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/J 5.1.18.0
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/J 5.1.18.0
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/J 5.1.15.0
+mysql-installer Information: 10 : Package - Installed - Loading controller state
+mysql-installer Information: 10 : Product Configuration Controller - Initializing controller
+mysql-installer Information: 10 : Product Configuration Controller - Loading Settings state
+mysql-installer Information: 10 : Controller Settings - Load State - Load Installed
+mysql-installer Information: 10 : Controller Settings - Load Installed - setting Install Dir from registry
+mysql-installer Information: 10 : Controller Settings - Load Installed - InstallDir 
+mysql-installer Information: 10 : Package - setting up controller
+mysql-installer Information: 10 : Package - Initializing controller
+mysql-installer Information: 10 : Product Configuration Controller - Init - Creating settings
+mysql-installer Information: 10 : Package - Installed - loading properties
+mysql-installer Information: 10 : Package - Load Properties - Loading msi properties
+mysql-installer Information: 10 : Package - Installed - Set Features states
+mysql-installer Information: 10 : Package - SetFeatureStates - setting states
+mysql-installer Information: 10 : Package - SetFeatureStates - setting feature Core.Feature
+mysql-installer Information: 10 : Package - SetFeatureStates - setting features for feature Core.Feature
+mysql-installer Information: 10 : Package - SetFeatureStates - setting feature EntityFramework
+mysql-installer Information: 10 : Package - SetFeatureStates - setting features for feature EntityFramework
+mysql-installer Information: 10 : Package - SetFeatureStates - setting feature WebProviders
+mysql-installer Information: 10 : Package - SetFeatureStates - setting features for feature WebProviders
+mysql-installer Information: 10 : Package - SetFeatureStates - setting feature Plugins
+mysql-installer Information: 10 : Package - SetFeatureStates - setting features for feature Plugins
+mysql-installer Information: 10 : Package - Installed - Finding upgrades
+mysql-installer Information: 10 : Package - FindUpgrades - series Connector/NET 8.0
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/NET 8.0.14
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/NET 8.0.14
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/NET 8.0.13
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/NET 8.0.13
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/NET 8.0.12
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/NET 8.0.12
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/NET 8.0.11
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/NET 8.0.11
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/NET 8.0.10
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/NET 8.0.9
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/NET 8.0.8
+mysql-installer Information: 10 : Package - FindUpgrades - series Connector/NET 7.0
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/NET 7.0.7
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/NET 7.0.6
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/NET 7.0.5
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/NET 7.0.4
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/NET 7.0.3
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/NET 7.0.2
+mysql-installer Information: 10 : Package - FindUpgrades - series Connector/NET 6.9
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/NET 6.9.12
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/NET 6.9.12
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/NET 6.9.11
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/NET 6.9.11
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/NET 6.9.10
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/NET 6.9.10
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/NET 6.9.9
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/NET 6.9.9
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/NET 6.9.8
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/NET 6.9.8
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/NET 6.9.7
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/NET 6.9.7
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/NET 6.9.6
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/NET 6.9.6
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/NET 6.9.5
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/NET 6.9.5
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/NET 6.9.4
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/NET 6.9.4
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/NET 6.9.3
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/NET 6.9.3
+mysql-installer Information: 10 : Package - FindUpgrades - series Connector/NET 6.8
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/NET 6.8.8
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/NET 6.8.8
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/NET 6.8.7
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/NET 6.8.7
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/NET 6.8.6
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/NET 6.8.6
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/NET 6.8.3
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/NET 6.8.3
+mysql-installer Information: 10 : Package - FindUpgrades - series Connector/NET 6.7
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/NET 6.7.9
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/NET 6.7.9
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/NET 6.7.8
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/NET 6.7.8
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/NET 6.7.7
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/NET 6.7.7
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/NET 6.7.4
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/NET 6.7.4
+mysql-installer Information: 10 : Package - FindUpgrades - series Connector/NET 6.6
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/NET 6.6.5
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/NET 6.6.5
+mysql-installer Information: 10 : Package - FindUpgrades - series Connector/NET 6.5
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/NET 6.5.4
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/NET 6.5.4
+mysql-installer Information: 10 : Package - FindUpgrades - series Connector/NET 6.4
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/NET 6.4.4
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/NET 6.4.4
+mysql-installer Information: 10 : Package - FindUpgrades - series Connector/NET 6.10
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/NET 6.10.8
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/NET 6.10.8
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/NET 6.10.7
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/NET 6.10.7
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/NET 6.10.6
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/NET 6.10.6
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/NET 6.10.5
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/NET 6.10.5
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/NET 6.10.4
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/NET 6.10.4
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/NET 6.10.3
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/NET 6.10.2
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/NET 6.10.1
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Connector/NET 6.10.0
+mysql-installer Information: 10 : Package - Installed - Loading controller state
+mysql-installer Information: 10 : Product Configuration Controller - Initializing controller
+mysql-installer Information: 10 : Product Configuration Controller - Loading Settings state
+mysql-installer Information: 10 : Controller Settings - Load State - Load Installed
+mysql-installer Information: 10 : Controller Settings - Load Installed - setting Install Dir from registry
+mysql-installer Information: 10 : Controller Settings - Load Installed - InstallDir C:\Program Files (x86)\MySQL\Connector NET 8.0\
+mysql-installer Information: 10 : Package - setting up controller
+mysql-installer Information: 10 : Package - Initializing controller
+mysql-installer Information: 10 : Product Configuration Controller - Init - Creating settings
+mysql-installer Information: 10 : Package - Installed - loading properties
+mysql-installer Information: 10 : Package - Load Properties - Loading msi properties
+mysql-installer Information: 10 : Package - Installed - Set Features states
+mysql-installer Information: 10 : Package - SetFeatureStates - setting states
+mysql-installer Information: 10 : Package - SetFeatureStates - setting feature ServerA4Feature
+mysql-installer Information: 10 : Package - SetFeatureStates - setting features for feature ServerA4Feature
+mysql-installer Information: 10 : Package - SetFeatureStates - setting feature ServerFeature
+mysql-installer Information: 10 : Package - SetFeatureStates - setting features for feature ServerFeature
+mysql-installer Information: 10 : Package - Installed - Finding upgrades
+mysql-installer Information: 10 : Package - FindUpgrades - series MySQL Documentation 5.7
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Documentation 5.7.25
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Documentation 5.7.25
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Documentation 5.7.24
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Documentation 5.7.24
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Documentation 5.7.23
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Documentation 5.7.23
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Documentation 5.7.22
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Documentation 5.7.22
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Documentation 5.7.21
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Documentation 5.7.21
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Documentation 5.7.20
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Documentation 5.7.20
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Documentation 5.7.19
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Documentation 5.7.19
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Documentation 5.7.18
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Documentation 5.7.18
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Documentation 5.7.17
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Documentation 5.7.17
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Documentation 5.7.16
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Documentation 5.7.16
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Documentation 5.7.15
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Documentation 5.7.15
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Documentation 5.7.14
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Documentation 5.7.14
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Documentation 5.7.13
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Documentation 5.7.13
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Documentation 5.7.12
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Documentation 5.7.12
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Documentation 5.7.11
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Documentation 5.7.11
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Documentation 5.7.10
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Documentation 5.7.10
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Documentation 5.7.9
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Documentation 5.7.9
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Documentation 5.7.8
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Documentation 5.7.8
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Documentation 5.7.7
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Documentation 5.7.7
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Documentation 5.7.6
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Documentation 5.7.5
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Documentation 5.7.4
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Documentation 5.7.3
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Documentation 5.7.2
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Documentation 5.7.1
+mysql-installer Information: 10 : Package - FindUpgrades - validating package MySQL Documentation 5.7.0
+mysql-installer Information: 10 : Package - Installed - Loading controller state
+mysql-installer Information: 10 : Product Configuration Controller - Initializing controller
+mysql-installer Information: 10 : Product Configuration Controller - Loading Settings state
+mysql-installer Information: 10 : Controller Settings - Load State - Load Installed
+mysql-installer Information: 10 : Controller Settings - Load Installed - setting Install Dir from registry
+mysql-installer Information: 10 : Controller Settings - Load Installed - InstallDir 
+mysql-installer Information: 10 : Package - setting up controller
+mysql-installer Information: 10 : Creating configuration controller for: examples.
+mysql-installer Information: 10 : Examples configuration controller created.
+mysql-installer Information: 10 : Package - Initializing controller
+mysql-installer Information: 10 : Package - Installed - loading properties
+mysql-installer Information: 10 : Package - Load Properties - Loading msi properties
+mysql-installer Information: 10 : Package - Installed - Set Features states
+mysql-installer Information: 10 : Package - SetFeatureStates - setting states
+mysql-installer Information: 10 : Package - SetFeatureStates - setting feature SampleDB
+mysql-installer Information: 10 : Package - SetFeatureStates - setting features for feature SampleDB
+mysql-installer Information: 10 : Package - Installed - Finding upgrades
+mysql-installer Information: 10 : Package - FindUpgrades - series Samples and Examples 5.7
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Samples and Examples 5.7.25
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Samples and Examples 5.7.25
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Samples and Examples 5.7.24
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Samples and Examples 5.7.24
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Samples and Examples 5.7.23
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Samples and Examples 5.7.23
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Samples and Examples 5.7.22
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Samples and Examples 5.7.22
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Samples and Examples 5.7.21
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Samples and Examples 5.7.21
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Samples and Examples 5.7.20
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Samples and Examples 5.7.20
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Samples and Examples 5.7.19
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Samples and Examples 5.7.19
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Samples and Examples 5.7.18
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Samples and Examples 5.7.18
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Samples and Examples 5.7.17
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Samples and Examples 5.7.17
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Samples and Examples 5.7.16
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Samples and Examples 5.7.16
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Samples and Examples 5.7.15
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Samples and Examples 5.7.15
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Samples and Examples 5.7.14
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Samples and Examples 5.7.14
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Samples and Examples 5.7.13
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Samples and Examples 5.7.13
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Samples and Examples 5.7.12
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Samples and Examples 5.7.12
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Samples and Examples 5.7.11
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Samples and Examples 5.7.11
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Samples and Examples 5.7.10
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Samples and Examples 5.7.10
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Samples and Examples 5.7.9
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Samples and Examples 5.7.9
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Samples and Examples 5.7.8
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Samples and Examples 5.7.8
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Samples and Examples 5.7.7
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Samples and Examples 5.7.7
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Samples and Examples 5.7.6
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Samples and Examples 5.7.5
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Samples and Examples 5.7.4
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Samples and Examples 5.7.3
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Samples and Examples 5.7.2
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Samples and Examples 5.7.1
+mysql-installer Information: 10 : Package - FindUpgrades - validating package Samples and Examples 5.7.0
+mysql-installer Information: 10 : Package - Installed - Loading controller state
+mysql-installer Information: 10 : Product Configuration Controller - Initializing controller
+mysql-installer Information: 10 : Product Configuration Controller - Loading Settings state
+mysql-installer Information: 10 : Controller Settings - Load State - Load Installed
+mysql-installer Information: 10 : Controller Settings - Load Installed - setting Install Dir from registry
+mysql-installer Information: 10 : Controller Settings - Load Installed - InstallDir C:\Program Files (x86)\MySQL\Samples and Examples 5.7\
+mysql-installer Information: 10 : Saving configuration.
+mysql-installer Information: 10 : Attempting product manifest download from https://cdn.mysql.com/windows/installer/manifest.zip.
+mysql-installer Information: 10 : Saving configuration.

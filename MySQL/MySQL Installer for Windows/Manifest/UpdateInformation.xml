@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UpdateInformation xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+  <Version>1.4.28.0</Version>
+  <MinManifestRequired>338</MinManifestRequired>
+  <CommunityURL>http://cdn.mysql.com/Downloads/MySQLInstaller/mysql-installer-update-1.4.28.0-Community.msi</CommunityURL>
+  <CommunityHash>1AE537187048A62DF0ABB26BB0C7C5571446D56E</CommunityHash>
+  <CommercialURL>https://updates.oracle.com/Orion/Services/download/p28962491_140_WINNT.zip?aru=22588405&amp;patch_file=p28962491_140_WINNT.zip</CommercialURL>
+  <CommercialHash>8DD3A5621F191B760E8E31BE319317E141F3D96D</CommercialHash>
+</UpdateInformation>

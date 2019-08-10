@@ -1,7 +1,99 @@
 <style>
-  h2 {color:red;}
-  </style>
+    h2 {color:red;}
+  /*  button{
+      position: relative;
 
-  <H2 style="text-align:center;" >
-    DELETE WORK ORDER PAGE IS IN PROGRESS!
-  </H2>
+      left: 450px;
+    } */
+</style>
+          <div>''</div>
+          <div>''</div>
+          <div>''</div>
+  <div class="container-fluid ">
+
+    <H2 style="text-align:center;" >
+      DELETE WORK ORDER !
+    </H2>
+
+  </div>
+
+  <div class="container-fluid ">
+    <form [formGroup]="deleteForm" (ngSubmit)="onSbumit()">
+
+        <div class="form-group row ">
+              <label for="work no" class="col-sm-2">workorder no.</label>
+             <div  class="col-sm-1">
+              <input formControlName="idrepair_order" type="text" class="form-control " id="orderNo" >
+            </div>
+        </div>
+
+        <div class="form-group row">
+            <label for="building" class="col-sm-2"> Building</label>
+          <div  class="col-sm-4">
+            <input formControlName="building" type="text" class="form-control" id="bldg" >
+          </div>
+
+        <!--<div class="form-group  ">-->
+            <label for="location" class="col-sm-1">Location</label>
+          <div  class="col-sm-4">
+            <input formControlName="location" type="text" class="form-control" id="locat" >
+          </div>
+        </div>
+
+        <div class="form-group row">
+            <label for="contact"class="col-sm-2">Contact Person</label>
+          <div class="col-sm-4">
+            <input formControlName="requested_by" type="text" class="form-control" id="contact" >
+          </div>
+
+        <!--<div class="form-group col-md-6">-->
+            <label for="contact tel" class="col-sm-1">Contact Tel</label>
+          <div class="col-sm-4">
+            <input formControlName="contact_tel" type="text" class="form-control" id="tel" >
+          </div>
+        </div>
+
+        <div class="form-group row">
+            <label for="description" class="col-sm-2">Description</label>
+            <div class="col-sm-11">
+            <!--<input formControlName="description" type="text" class="form-control" row="3" id="desc" >-->
+            <textarea formControlName="description" type="text" class="form-control" row="3" id="desc" ></textarea>
+            </div>
+        </div>
+
+        <div row>
+            <H2 class="text-danger text-center">Are you sure to Delete the Work Order</H2>
+          <div class="col-sm-2">
+
+            <button class="btn btn-primary fixed-bottom" type="submit" id="btndel"
+              (click)="showModal=true"  data-toggle="modal" data-target="#myModal"> Delete Confirm </button>
+          </div>
+      </div>
+    </form>
+
+     <!-- The Modal -->
+     <div class="modal fade" id="myModal" [ngClass]="{'show': showModal}" >
+      <div class="modal-dialog" >
+        <div class="modal-content">
+
+          <!-- Modal Header -->
+          <div class="modal-header">
+            <h4 class="modal-title style=text-align:center">Delete Work Order</h4>
+            <button type="button" (click)="showModal=false"   class="close" data-dismiss="modal"></button>
+          </div>
+
+          <!-- Modal body -->
+          <div class="modal-body style=text-align:center">
+            Record Delete Complete
+          </div>
+
+          <!-- Modal footer -->
+          <div class="modal-footer">
+             <button type="button" (click)="returnView()" class="btn btn-danger" data-dismiss="modal" >View</button>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+  </div>

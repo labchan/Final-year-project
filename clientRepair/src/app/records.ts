@@ -1,9 +1,10 @@
-export class Records {
+export interface Records {
   idrepair: number;
   location: string;
   building: string;
-  contactPerson: string;
-  contactPhone: number;
+  requested_by: string;
+  contact_tel: number;
   description: string;
+  photoPath: string;
 
 }

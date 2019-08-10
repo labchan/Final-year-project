@@ -1,0 +1,55 @@
+<!--The content below is only a placeholder and can be replaced.-->
+
+<!doctype html>
+<html lang="en">
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+   <!--
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+   -->
+  </head>
+  <body>
+
+      <div class="container-fluid">
+        <div>''</div>
+        <div>''</div>
+        <div>''</div>
+            <div class="row">
+              <table class="table table-hover">
+                <thead>
+                  <tr>
+                  <th scope="col">Repair ref no.</th>
+                  <th scope="col">Date</th>
+                  <th scope="col">Location</th>
+                  <th scope="col">Building</th>
+                  <th scope="col">Repair Description</th>
+                  <th scope="col">Contact Person</th>
+                  <th scope="col">Tel</th>
+
+                  </tr>
+                </thead>
+                <tbody  *ngFor="let record of Records" >
+
+                    <tr>
+                    <td>{{record.idrepair_order}}</td>
+                    <td>{{record.date}}</td>
+                    <td>{{record.location}}</td>
+                    <td>{{record.building}}</td>
+                    <td>{{record.description}}</td>
+                    <td>{{record.requested_by}}</td>
+                    <td>{{record.contact_tel}}</td>
+
+
+                    <!--<td> <img src ="{{record.photoPath}}" width="80" height="80" ></td>-->
+                    <!--<td> <img src ="assets//img/repairIcon.jpg" class="details-image" width="80" height="80" ></td>-->
+                    </tr>
+
+                  </tbody>
+              </table>
+            </div>
+          </div>
+  </body>
+</html>

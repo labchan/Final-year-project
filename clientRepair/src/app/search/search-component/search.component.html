@@ -1,0 +1,63 @@
+<!--The content below is only a placeholder and can be replaced.-->
+
+<!doctype html>
+<html lang="en">
+
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!--
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet">
+-->
+  </head>
+
+  <body>
+          <div>''</div>
+          <div>''</div>
+          <div>''</div>
+      <div class="container-fluid">
+
+              <table class="table table-hover table-responsive ">
+                <thead>
+                  <tr>
+                  <th scope="col">Repair ref no.</th>
+                  <th scope="col">Date</th>
+                  <th scope="col">Location</th>
+                  <th scope="col">Building</th>
+                  <th scope="col">Catagory</th>
+                  <th scope="col">Repair Description</th>
+                  <th scope="col">Contact Person</th>
+                  <!--<th scope="col">Date</th>-->
+                  <th scope="col" colspan="3" style="text-align: center">Action</th>
+
+                  </tr>
+                </thead>
+                <!--<tbody (click)=" onSelect(record)" *ngFor="let record of Records" >-->
+                <tbody *ngFor="let record of Records" >
+                    <tr>
+                    <td >{{record.idrepair_order}}</td>
+                    <td>{{record.date}}</td>
+                    <td>{{record.location}}</td>
+                    <td>{{record.building}}</td>
+                    <td>{{record.catalog}}</td>
+                    <td>{{record.description}}</td>
+                    <td>{{record.requested_by}}</td>
+                    <!--<td>{{record.contact_tel}}</td>-->
+
+                   <!-- <td><a class="btn.btn-sm btn-success text-white"><i class="fa fa-plus"></i> Edit </a></td>-->
+                   <td><button (click)="onSelect(record)" class="btn.btn-sm btn-success text-white" type="submit"> Detail </button></td>
+                   <td><button (click)="onEdit(record)" class="btn.btn-sm btn-success text-white" type="submit"> Edit </button></td>
+                    <td><button (click)="onDelete(record)"class="btn.btn-sm btn-success text-white" type="submit" >Delete </button></td>
+
+                    </tr>
+
+                  </tbody>
+              </table>
+            </div>
+      </body>
+</html>

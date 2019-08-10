@@ -1,0 +1,168 @@
+<style>
+h2 {color:red;}
+
+</style>
+
+<div>''</div>
+<div>''</div>
+<div>''</div>
+<div class="container-fluid">
+
+    <H2 style="text-align:center;" >
+      Create WORK ORDER !
+    </H2>
+
+  </div>
+ <!--{{orderForm.value | json}}-->
+<div class="container-fluid ">
+  <form [formGroup]= "orderForm" (ngSubmit)="onSbumit()" >
+
+    <div class="form-group row">
+      <label for="date" class="col-sm-2"> Date:</label>
+      <div class="col-sm-3">
+        <input [class.is-invalid]="date.invalid && date.touched"
+        formControlName="date" type="date" class="form-control" row="3" >
+      </div>
+
+      <div *ngIf="date.invalid && date.touched" class="col-sm-6">
+          <small *ngIf="date.errors?.required" class="text-danger text-right" > date is required</small>
+
+     </div>
+    </div>
+
+    <div class="form-group row" >
+      <label for="building" class="col-sm-2"> Building :</label>
+      <div  class="col-sm-4">
+          <input [class.is-invalid]="buildingName.invalid && buildingName.touched"
+          id="building" formControlName="building" required type="text" class="form-control">
+
+<!--
+          <div *ngIf="buildingName.invalid && buildingName.touched" >
+            <small *ngIf="buildingName.errors?.required" class="text-danger"> building is required</small>
+            <small *ngIf="buildingName.errors?.maxlength" class="text-danger"> building must not morn than 10 characters</small>
+          </div> -->
+      </div>
+
+    <!--<div class="form-group row">-->
+      <label for="location" class="col-sm-1">Location:</label>
+      <div  class="col-sm-4">
+        <input [class.is-invalid]="locationName.invalid && locationName.touched"
+          formControlName="location" type="text" class="form-control">
+      </div>
+
+      <div *ngIf="buildingName.invalid && buildingName.touched" class="col-sm-6">
+          <small *ngIf="buildingName.errors?.required" class="text-danger " > building is required</small>
+          <small *ngIf="buildingName.errors?.maxlength" class="text-danger " > building must not morn than 10 characters</small>
+        </div>
+
+
+      <div *ngIf="locationName.invalid && locationName.touched" class="col-sm-6">
+        <small *ngIf="locationName.errors?.required" class="text-danger" id="locationPosition" >location is required</small>
+        <small *ngIf="locationName.errors?.maxlength" class="text-danger" id="locationPosition" >location must not more than 20 characters</small>
+      </div>
+  </div>
+
+    <div class="form-group row">
+        <label for="contact"class="col-sm-2">Contact Person:</label>
+      <div  class="col-sm-4">
+        <input [class.is-invalid]="contact.invalid && contact.touched"
+        formControlName="requested_by" type="text" class="form-control">
+      </div>
+
+
+    <!--<div class="form-group row">-->
+        <label for="contact tel" class="col-sm-1">Tel:</label>
+      <div  class="col-sm-4">
+        <input [class.is-invalid]="tel.invalid && tel.touched"
+        formControlName="contact_tel" type="text" class="form-control">
+      </div>
+
+      <div *ngIf="contact.invalid && contact.touched" class="col-sm-6">
+          <small *ngIf="contact.errors?.required" class="text-danger text-right" > Contact Person is required</small>
+          <small *ngIf="contact.errors?.maxlength" class="text-danger text-right" > Contact Name must not morn than 15 characters</small>
+        </div>
+
+        <div *ngIf="tel.invalid && tel.touched" class="col-sm-6">
+            <small *ngIf="tel.errors?.required" class="text-danger text-right" id="locationPosition" > number is required and must not lessn than 8 digits</small>
+            <small *ngIf="tel.errors?.minlength" class="text-danger text-right" id="locationPosition"> number is required and must not lessn than 8 digits</small>
+            <small *ngIf="tel.errors?.maxlength" class="text-danger text-right" id="locationPosition"> Telephone number must not more than 8 digits</small>
+            <small *ngIf="tel.errors?.pattern" class="text-danger text-right" id="locationPosition">  number is required </small>
+          </div>
+    </div>
+
+    <div class="form-group row">
+      <label for="catagory" class="col-sm-2"> Catagory:</label>
+      <div class="col-sm-4">
+        <select [class.is-invalid]="catalog.invalid && catalog.touched"
+        formControlName="catalog" type="text" class="form-control" >
+          <option>Air Cond</option>
+          <option>Fire Service</option>
+          <option>PD</option>
+          <option>Electrical</option>
+          <option>Lighting</option>
+          <option>Furniture</option>
+          <option>others</option>
+      </select>
+      </div>
+
+      <div *ngIf="catalog.invalid && catalog.touched" class="col-sm-6">
+          <small *ngIf="catalog.errors?.required" class="text-danger text-right" > catagory is required</small>
+
+     </div>
+  </div>
+
+    <div class="form-group row">
+        <label for="description" class="col-sm-2"> Description:</label>
+        <div class="col-sm-11">
+          <textarea [class.is-invalid]="desc.invalid && desc.touched"
+          formControlName="description" type="text" class="form-control" row="3" ></textarea>
+        </div>
+
+        <div *ngIf="desc.invalid && desc.touched" class="col-sm-6">
+            <small *ngIf="desc.errors?.required" class="text-danger text-right" > description is required</small>
+
+       </div>
+    </div>
+
+    <!--
+     <div class="form-group row">
+      <label>Photo:</label>
+      <input formControlName="photoPath" type="file"/>
+    </div>
+  -->
+    <div class="col-sm-2">
+      <button class="btn btn-primary" type="submit" [disabled]="orderForm.invalid || orderForm.pristine"
+      (click)="showModal=true"  data-toggle="modal" data-target="#myModal" > add order</button>
+    </div>
+  </form>
+
+    <!-- The Modal -->
+    <div class="modal fade" id="myModal" [ngClass]="{'show': showModal}" >
+      <div class="modal-dialog" >
+        <div class="modal-content">
+
+          <!-- Modal Header -->
+          <div class="modal-header">
+            <h4 class="modal-title style=text-align:center">Create Work Order</h4>
+            <button type="button" (click)="showModal=false"   class="close" data-dismiss="modal"></button>
+          </div>
+
+          <!-- Modal body -->
+          <div class="modal-body style=text-align:center">
+            Record Insert Completed
+          </div>
+
+          <!-- Modal footer -->
+          <div class="modal-footer">
+           <!-- <button type="button" (click)="showModal=false" class="btn btn-danger" data-dismiss="modal" >Close</button>-->
+            <button type="button" (click)="returnView()" class="btn btn-danger" data-dismiss="modal" >View</button>
+            <button type="button" (click)="returnHome()" class="btn btn-danger" data-dismiss="modal" >Home</button>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+
+</div>
+

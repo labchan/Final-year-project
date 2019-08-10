@@ -1,0 +1,93 @@
+
+<style>
+  h2 {color:red;}
+  </style>
+  <div>''</div>
+  <div>''</div>
+  <div>''</div>
+  <div class="container-fluid ">
+
+    <H2 style="text-align:center;" >
+      Search For WORK ORDER !
+    </H2>
+
+  </div>
+<div class="container-fluid">
+  <form [formGroup]=searchForm (ngSubmit)="onSubmit()">
+
+        <div class="form-group row">
+          <label for="building" class="col-sm-2 col-form-label">Select Building :</label>
+          <div class="col-sm-3">
+            <!--<input type="email" class="form-control" id="inputEmail3" placeholder="Email">-->
+            <select formControlName="building" type="text" class="form-control" placeholder="select building">
+                <option>all</option>
+                <option>ATTC</option>
+                <option>KBC</option>
+                <option>SSC</option>
+                <option>KCC</option>
+                <option>TMRTG</option>
+                <option>STTG</option>
+                <option>HQ</option>
+                <option>  </option>
+              </select>
+          </div>
+
+          <label for="catalog" class="col-sm-2 col-form-label">Select catagory :</label>
+          <div class="col-sm-3">
+             <!--<input type="email" class="form-control" id="inputEmail3" placeholder="Email">-->
+            <select formControlName="catalog" type="text" class="form-control" placeholder="select catagory">
+              <option>all</option>
+              <option>Air Cond</option>
+              <option>Fire Service</option>
+              <option>PD</option>
+              <option>Electrical</option>
+              <option>Lighting</option>
+              <option>Furniture</option>
+              <option>others</option>
+            </select>
+          </div>
+
+          <div class="col-sm-2">
+              <button class="btn btn-primary" type="submit"> Search order</button>
+            </div>
+        </div>
+  </form>
+</div>
+
+
+<div class="container-fluid">
+    <div class="row">
+          <table class="table table-hover">
+            <thead>
+              <tr>
+              <th scope="col">Repair ref no.</th>
+              <th scope="col">Date</th>
+              <th scope="col">Location</th>
+              <th scope="col">Building</th>
+              <th scope="col">Catagory</th>
+              <th scope="col">Repair Description</th>
+              <th scope="col">Contact Person</th>
+              <th scope="col">Tel</th>
+
+              </tr>
+            </thead>
+            <tbody  *ngFor="let record of Records" >
+
+                <tr>
+                <td>{{record.idrepair_order}}</td>
+                <td>{{record.date}}</td>
+                <td>{{record.location}}</td>
+                <td>{{record.building}}</td>
+                <td>{{record.catalog}}</td>
+                <td>{{record.description}}</td>
+                <td>{{record.requested_by}}</td>
+                <td>{{record.contact_tel}}</td>
+                <!--
+                <td><a class="btn.btn-sm btn-success text-white"><i class="fa fa-plus"></i> Edit </a></td>
+                <td><button class="btn.btn-sm btn-primary" type="submit" >Delete </button></td>
+                -->
+                </tr>
+
+              </tbody>
+          </table>
+        </div>
